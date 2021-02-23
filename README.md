@@ -1,6 +1,6 @@
-# Website
+# VRapeutic Docs
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+VRapeutic's Docs Website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation
 
