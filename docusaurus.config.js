@@ -5,7 +5,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/vrapeutic-logo.ico',
   organizationName: 'vrapeutic', // Usually your GitHub org/user name.
   projectName: 'vrapeutic-docs', // Usually your repo name.
   themeConfig: {
