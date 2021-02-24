@@ -27,16 +27,16 @@ module.exports = {
           label: 'Blog', 
           position: 'left'
         },
-        {
-          href: 'https://myvrapeutic.com/',
-          label: 'VRapeutic',
-          position: 'right',
-        },
-        {
-          href: 'http://yuram.tech/',
-          label: 'Yuram',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://myvrapeutic.com/',
+        //   label: 'VRapeutic',
+        //   position: 'right',
+        // },
+        // {
+        //   href: 'http://yuram.tech/',
+        //   label: 'Yuram',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -56,7 +56,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Social Media',
+          title: 'VRapeutic on Social Media',
           items: [
             {
               label: 'Facebook',
@@ -69,6 +69,23 @@ module.exports = {
             {
               label: 'Instagram',
               href: 'https://www.instagram.com/myvrapeutic/',
+            },
+          ],
+        },
+        {
+          title: 'Yuram on Social Media',
+          items: [
+            {
+              label: 'Facebook',
+              href: 'https://www.facebook.com/yuramcares/',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/yuramcares',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/yuramcares/',
             },
           ],
         },
