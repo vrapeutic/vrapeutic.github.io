@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Style Guide
-sidebar_label: Style Guide 4
+sidebar_label: Style Guide 5
 slug: /
 ---
 
