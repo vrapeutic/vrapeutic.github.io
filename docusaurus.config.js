@@ -1,13 +1,13 @@
 module.exports = {
   title: 'VRapeutic',
   tagline: 'Virtual Worlds, Real Hope.',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://vrapeutic.github.io/',
+  baseUrl: '/vrapeutic.github.io/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/vrapeutic-logo.ico',
   organizationName: 'vrapeutic', // Usually your GitHub org/user name.
-  projectName: 'vrapeutic-docs', // Usually your repo name.
+  projectName: 'vrapeutic.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'VRapeutic',
