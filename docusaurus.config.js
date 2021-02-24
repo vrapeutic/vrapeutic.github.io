@@ -2,7 +2,7 @@ module.exports = {
   title: 'VRapeutic',
   tagline: 'Virtual Worlds, Real Hope.',
   url: 'https://vrapeutic.github.io/',
-  baseUrl: '/vrapeutic.github.io/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/vrapeutic-logo.ico',
