@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VRapeutic Docs',
-  tagline: 'Virtual Worls, Real Hope.',
+  title: 'VRapeutic',
+  tagline: 'Virtual Worlds, Real Hope.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'vrapeutic-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'VRapeutic Docs',
+      title: 'VRapeutic',
       logo: {
         alt: 'VRapeutic Logo',
         src: 'img/vrapeutic-logo.svg',
@@ -56,19 +56,19 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Social Media',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/myvrapeutic',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/myvrapeutic',
+            },
+            {
+              label: 'Instagram',
+              href: 'https://www.instagram.com/myvrapeutic/',
             },
           ],
         },
@@ -76,12 +76,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'VRapeutic Website',
+              href: 'https://myvrapeutic.com/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Yuram Blog',
+              href: 'http://yuram.tech/blog/',
             },
           ],
         },
