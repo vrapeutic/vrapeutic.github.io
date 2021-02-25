@@ -8,32 +8,42 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Immersive Environments',
+    imageUrl: 'img/undraw_augmented_reality_heuy.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        VRapeutic builds immersive VR experiences, with a major focus
+        to instill essential life skills to children with learning difficulties 
+        and developmental disorders
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Tracking Performance',
+    imageUrl: 'img/undraw_visual_data_b1wx.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        VRapeutic helps therapists and doctors with statistics and performance data
+        provided within a cloud-based platform
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Rich Up-to-date Blog',
+    imageUrl: 'img/undraw_online_articles_79ff.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        VRapeutic keeps its blog's content up-to-date with its latest research in AI, education, and therapy
+      </>
+    ),
+  },
+  {
+    title: 'AI & Biosensors',
+    imageUrl: 'img/undraw_programmer_imem.svg',
+    description: (
+      <>
+        VRapeutic employs cutting edge technologies in AI and bio-sensors technology to
+        its therapeutic solutions
       </>
     ),
   },
@@ -42,7 +52,7 @@ const features = [
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
