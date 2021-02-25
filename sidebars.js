@@ -1,6 +1,14 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    WebXR: [
+      'intro', 
+      'installation-guide',
+      'get-started',
+      'module-design',
+    ],
+    "Therapeutic Modules' Library": [
+      'ellie-tale',
+      'garden-do',
+    ]
   },
 };
