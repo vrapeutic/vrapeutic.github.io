@@ -10,6 +10,14 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* background-image: linear-gradient(#2b3137, whitesmoke); */
+  background-color: #2b3137;
+}
+
+.getStartedBtn {
+  border-color: transparent;
+  color: white;
+  --ifm-button-size-multiplier: 1.6;
 }
 
 @media screen and (max-width: 966px) {
@@ -22,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 2rem 0rem;
 }
 
 .features {
@@ -35,4 +44,81 @@
 .featureImage {
   height: 300px;
   width: 300px;
+}
+
+.sponsorImage {
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  margin-top: 50%;
+  margin-bottom: -20%;
+  transform: translateY(-50%);
+  
+}
+
+.sponsorList {
+  width: 100%;
+}
+
+.heroProjectTagline {
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+}
+
+.heroLogo {
+  animation-duration: 1s;
+  animation-name: jackInTheBox;
+  float: left ;
+  margin-top: 20px;
+  padding: 0 20px 20px;
+}
+
+.heroTitleTextHtml b {
+  color: var(--ifm-color-primary);
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.announcement {
+  font-weight: bold;
+  font-size: 24px;
+  /* padding: 48px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.announcementDark {
+  background-image: linear-gradient(#dcdcdc, white);
+  /* background-color: whitesmoke; */
+  color: #20232a;
+}
+
+.announcementInner {
+  width: 100%;
+  margin: 0 auto;
+  vertical-align: middle;
+
+  /* max-width: 768px; */
 }
