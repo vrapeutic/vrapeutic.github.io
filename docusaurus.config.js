@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Virtual Worlds, Real Hope.',
   url: 'https://vrapeutic.github.io/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/vrapeutic-logo.ico',
   organizationName: 'vrapeutic', // Usually your GitHub org/user name.
@@ -23,10 +23,15 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'blog', 
-          label: 'Blog', 
+          to: 'blog/', 
+          label: 'AI Blog', 
           position: 'left'
         },
+        {
+          to: 'ed-blog/', 
+          label: 'Yuram Blog', 
+          position: 'left'
+        }
         // {
         //   href: 'https://myvrapeutic.com/',
         //   label: 'VRapeutic',
@@ -52,6 +57,19 @@ module.exports = {
             {
               label: "Therapeutic Modules' Library",
               to: 'docs/ellie-tale/',
+            },
+          ],
+        },
+        {
+          title: 'Blogs',
+          items: [
+            {
+              label: 'AI Blog',
+              to: 'blog/',
+            },
+            {
+              label: 'Yuram Blog',
+              to: 'ed-blog',
             },
           ],
         },
@@ -89,20 +107,25 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'VRapeutic Website',
-              href: 'https://myvrapeutic.com/',
-            },
-            {
-              label: 'Yuram Blog',
-              href: 'http://yuram.tech/blog/',
-            },
-          ],
-        },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'VRapeutic Website',
+        //       href: 'https://myvrapeutic.com/',
+        //     },
+        //     {
+        //       label: 'Yuram Blog',
+        //       href: 'http://yuram.tech/blog/',
+        //     },
+        //   ],
+        // },
       ],
+      logo: {
+        alt: 'VRapeutic Logo',
+        src: 'img/vrapeutic-logo.ico',
+        href: 'https://myvrapeutic.com/',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} VRapeutic, Inc. Built with Docusaurus.`,
     },
   },
@@ -118,14 +141,31 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All our posts',
+          blogTitle: 'AI Blog',
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
+        }
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'ed-blog',
+        routeBasePath: 'ed-blog',
+        path: './ed-blog',
+        postsPerPage: 5,
+        blogSidebarCount: 'ALL',
+        blogSidebarTitle: 'All our posts',
+        blogTitle: 'Yuram Educational Blog',
+      },
+    ],
+  ]
 };
