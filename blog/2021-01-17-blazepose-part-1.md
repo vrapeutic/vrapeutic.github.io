@@ -3,7 +3,7 @@ slug: blazepose-part-1
 title: BlazePose, the Best Model for Body keypoints Extraction [Revolutionary]
 author: Alaa Hesham
 author_title: Machine Learning Research @ VRapeutic
-author_url: https://alaa-hesham.medium.com/
+author_url: https://www.linkedin.com/in/alaa-hesham-a6671b112/
 author_image_url: https://miro.medium.com/fit/c/262/262/1*HYIF3GGs-BXlAjHXJNe-dA.png
 tags: [computer-vision, research, pose-estimation]
 ---
