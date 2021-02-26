@@ -42,12 +42,45 @@ const features = [
     imageUrl: 'img/undraw_programmer_imem.svg',
     description: (
       <>
-        VRapeutic employs cutting edge technologies in AI and bio-sensors technology to
+        VRapeutic employs cutting edge technologies in Artificial Intelligence and biosensors technology to
         its therapeutic solutions
       </>
     ),
   },
 ];
+
+const sponsors = [
+  {
+    title: 'Flat6Labs Cairo',
+    imageUrl: 'img/falt6labs.png'
+  },
+  {
+    title: 'UNICEF Innovation Fund',
+    imageUrl: 'img/unicef-for-every-child-logo.png'
+  },
+  {
+    title: 'MakerLaunch',
+    imageUrl: 'img/makerlaunch.png'
+  },
+  {
+    title: 'Singularity University',
+    imageUrl: 'img/singularity-university-new-logo.png'
+  },
+]
+
+function Sponsor({imageUrl, title}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={clsx('col col--3')}>
+      {imgUrl && (
+        <div className="text--center">
+          <img className={styles.sponsorImage} src={imgUrl} alt={title} />
+          <br></br>
+        </div>
+      )}
+    </div>
+  )
+}
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -69,24 +102,50 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      // title={`${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Get Started
-            </Link>
-          </div>
+          <h1 className={styles.heroProjectTagline}>
+              <img
+                alt="logo"
+                className={styles.heroLogo}
+                src={useBaseUrl('/img/vrapeutic-logo.ico')}
+              />
+              <span className={styles.heroTitleTextHtml}>
+                <br></br>
+                <b>{siteConfig.title}</b>
+                <br></br>
+                <small>{siteConfig.tagline}</small>
+                <br></br>
+                <div className={styles.buttons}>
+                  <Link
+                    className={clsx(
+                      'button button--primary button--lg',
+                    )}
+                    to={useBaseUrl('docs/')}>
+                    <span className={styles.getStartedBtn}>Explore Docs</span>
+                  </Link>
+                </div>
+              </span>
+          </h1>
         </div>
       </header>
+      <div className={clsx(styles.announcement, styles.announcementDark)}>
+        <div className={styles.announcementInner}>
+          {sponsors && sponsors.length > 0 && (
+            <section className={styles.features}>
+              <div className="container">
+                <div className="row">
+                  {sponsors.map((props, idx) => (
+                    <Sponsor key={idx} {...props} />
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+        </div>
+      </div>
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
