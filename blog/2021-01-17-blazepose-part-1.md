@@ -10,7 +10,11 @@ tags: [computer-vision, research, pose-estimation]
 
 A comprehensive technical guide on how to extract human body keypoints using BlazePose for Human Pose Estimation.
 
-> [Original Medium Article](https://alaa-hesham.medium.com/blazepose-the-best-model-for-body-keypoints-extraction-efdad71d74e2)
+:::note
+
+You can check out the [Original Medium Article](https://alaa-hesham.medium.com/blazepose-the-best-model-for-body-keypoints-extraction-efdad71d74e2) here.
+
+:::
 
 ![key-points](https://miro.medium.com/max/2400/1*KRzZd1ofbP-FMWj1MPrvhQ.jpeg)
 
@@ -49,26 +53,20 @@ Before trying BlazePose for pose estimation, **we have tried other models such a
 
 We have noticed that PoseNet tends to have a good performance when the picture is zoomed out as in Figure 3 . However, it performs quite poorly when the subject person in the image is near as in Figure 2 and 4 even if the image is of good quality and resolution. It also does not manage to produce some body keypoints when the subjects’ clothes are fluffy such as in Figure 5.
 
-![i1](https://miro.medium.com/max/2400/1*7tUoCX50x_GKNnSUafUlcQ.jpeg)
-![i2](https://miro.medium.com/max/2400/1*o6wqR0C3CnfZOjj4YGxWPA.jpeg)
-*Figure 2 (Left) PoseNet could not extract keypoints when image size is that big
-Figure 3 (Right) PoseNet managed to extract keypoints when image becomes of lower
+![i1](/img/key-pts-1.png)
+*(Left) PoseNet could not extract keypoints when image size is that big. (Right) PoseNet managed to extract keypoints when image becomes of lower
 size and zoomed out.*
 
 
-![i3](https://miro.medium.com/max/2400/1*srHHG2T2vB6Jlj0spKHDXQ.png)
-![i4](https://miro.medium.com/max/330/1*6ER5oMaiBctLbFX-NY3jGw.png)
-*Figure 4 (Left) PoseNet does not manage to extract all body keypoints even that the image is
-of good quality.
-Figure 5 (Right) When person’s clothes are fluffy, it did not manage to detect all body
+![i2](/img/key-pts-2.png)
+*(Left) PoseNet does not manage to extract all body keypoints even that the image is
+of good quality. (Right) When person’s clothes are fluffy, it did not manage to detect all body
 key points.*
 
 **Now let’s see how BlazePose performs on these
 images.**
 
-![i5](https://miro.medium.com/max/2400/1*ja-8RAmjuJIO2gUcdzbCJA.jpeg)
-![i6](https://miro.medium.com/max/334/1*i5LvsniVGWe_a-3tI62O8Q.jpeg)
-![i7](https://miro.medium.com/max/334/1*CpvfcgvYxZVq3jRcQfCWpg.jpeg)
+![i3](/img/key-pts-3.png)
 
 Apparently, its performance is superior comparing to its current counterpart. **Disclaimer**, keypoints appear in white color but we changed their color to green. The reason is to make them clearer definitely with the same exact position and orientation.
 
@@ -98,9 +96,9 @@ on.
 4.  Keep running the following cells, finally you will get the input image
 annotated with upper body keypoints.
 
-![i10](https://miro.medium.com/max/500/1*Pnp12-E_7Ik8V7s_LtpO8A.jpeg)
-![i11](https://miro.medium.com/max/500/1*tpa-pEqKlmjpVDrQdSDPCw.png)
-*Figure 9 The left image represents the input image while the right image represents the annotated output image.*
+![i4](/img/key-pts-4.png)
+
+*The left image represents the input image while the right image represents the annotated output image.*
 
 ## Conclusion
 
