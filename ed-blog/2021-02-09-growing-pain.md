@@ -3,7 +3,7 @@ slug: growing-pain
 title: Growing Pains - The Brain Early Development Explained
 author: Marwa Helmy
 author_title: Research & Content Creator @ VRapeutic
-author_url: https://www.linkedin.com/public-profile/in/marwa-helmy-617b3130
+author_url: https://www.linkedin.com/in/marwa-helmy-617b3130/
 tags: [research, therapy, brain-explained]
 ---
 
