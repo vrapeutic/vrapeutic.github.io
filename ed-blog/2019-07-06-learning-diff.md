@@ -3,7 +3,7 @@ slug: learning-difficulties
 title: Learning Difficulties - Rethinking What We Know
 author: Marwa Helmy
 author_title: Research & Content Creator @ VRapeutic
-author_url: https://www.linkedin.com/public-profile/in/marwa-helmy-617b3130
+author_url: https://www.linkedin.com/in/marwa-helmy-617b3130/
 tags: [research, therapy]
 ---
 
