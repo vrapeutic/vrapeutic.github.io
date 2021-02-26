@@ -5,6 +5,7 @@ module.exports = {
       'installation-guide',
       'get-started',
       'module-design',
+      // 'doc1'
     ],
     "Therapeutic Modules' Library": [
       'ellie-tale',
