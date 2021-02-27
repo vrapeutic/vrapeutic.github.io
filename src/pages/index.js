@@ -68,6 +68,46 @@ const sponsors = [
   },
 ]
 
+const team = [
+  {
+    thumbnail: 'img/team/img_avatar.png',
+    name: 'Ahmed Al Assasy',
+    title: 'XR Developer'
+  },
+  {
+    thumbnail: 'img/team/img_avatar.png',
+    name: 'Hadeer Gamal',
+    title: 'XR Developer'
+  },
+  {
+    thumbnail: 'img/team/img_avatar.png',
+    name: 'Taghreed Reda',
+    title: 'XR Developer'
+  },
+  {
+    thumbnail: 'img/team/img_avatar.png',
+    name: 'Mahmoud Mousa',
+    title: 'VR Specialist'
+  },
+]
+
+function TeamMember({thumbnail, title, name}) {
+  const imageUrl = useBaseUrl(thumbnail);
+  return (
+    <div className={clsx('col col--3')}>
+      {thumbnail && (
+        <div className="text--center">
+          <img src={imageUrl} alt={name} />
+          <div className="avatar__intro padding-top--sm">
+            <h4 className="avatar__name">{name}</h4>
+            <small className="avatar__subtitle">{title}</small>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
 function Sponsor({imageUrl, title}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
@@ -159,6 +199,22 @@ function Home() {
           </section>
         )}
       </main>
+      {/* <div className={clsx(styles.team)}>
+        <h1><b>VRapeutic's Team</b></h1>
+        <div className={styles.announcementInner}>
+          {team && team.length > 0 && (
+            <section className={styles.features}>
+              <div className="container">
+                <div className="row">
+                  {team.map((props, idx) => (
+                    <TeamMember key={idx} {...props} />
+                  ))}
+                </div>
+              </div>
+            </section>
+          )}
+        </div>
+      </div> */}
     </Layout>
   );
 }
