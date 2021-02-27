@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  test:
+  build_and_deploy:
     docker:
       - image: cimg/node:15.10.0
     steps:
@@ -12,9 +12,12 @@ jobs:
       - run:
           name: Build Site
           command: npm run build
+      - run:
+          name: Deploy Site
+          command: GIT_USER=${GIT_USER} yarn deploy
 
 workflows:
   version: 2
   build:
     jobs:
-      - test
+      - build_and_deploy
