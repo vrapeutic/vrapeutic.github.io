@@ -71,8 +71,8 @@ const sponsors = [
 const team = [
   {
     thumbnail: 'img/team/img_avatar.png',
-    name: 'Ahmed Al Assasy',
-    title: 'XR Developer'
+    name: 'Alaa Hesham',
+    title: 'Machine Learning Engineer'
   },
   {
     thumbnail: 'img/team/img_avatar.png',
@@ -89,15 +89,25 @@ const team = [
     name: 'Mahmoud Mousa',
     title: 'VR Specialist'
   },
+  {
+    thumbnail: 'img/team/img_avatar.png',
+    name: 'Ahmed Al Assasy',
+    title: 'XR Developer'
+  },
+  {
+    thumbnail: 'img/team/img_avatar.png',
+    name: 'Yahya Alaa',
+    title: 'Cheif Technology Officer'
+  },
 ]
 
 function TeamMember({thumbnail, title, name}) {
   const imageUrl = useBaseUrl(thumbnail);
   return (
-    <div className={clsx('col col--3')}>
+    <div className={clsx('col col--4')}>
       {thumbnail && (
         <div className="text--center">
-          <img src={imageUrl} alt={name} />
+          <img className={styles.teamMemberImg} src={imageUrl} alt={name} />
           <div className="avatar__intro padding-top--sm">
             <h4 className="avatar__name">{name}</h4>
             <small className="avatar__subtitle">{title}</small>

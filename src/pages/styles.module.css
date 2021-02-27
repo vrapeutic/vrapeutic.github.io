@@ -130,3 +130,7 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.teamMemberImg {
+  border-radius: 50%;
+}
