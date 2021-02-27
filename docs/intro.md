@@ -15,7 +15,7 @@ We aim to replace boring, inefficient, and high-cost therapeutic sessions with e
 
 ## Therapeutic Modules
 
-![i](https://lh5.googleusercontent.com/nSfEZJMjP1kkhpKLvJpRGSRSnBYEUn1vXMWUaeu-wyF1RlBbBSSfHAnrJNgkLrI9tBcCjHzGiwn_sKohzYRsGcU0jhCY9VMuluhyF-8l)
+<!-- ![i](https://lh5.googleusercontent.com/nSfEZJMjP1kkhpKLvJpRGSRSnBYEUn1vXMWUaeu-wyF1RlBbBSSfHAnrJNgkLrI9tBcCjHzGiwn_sKohzYRsGcU0jhCY9VMuluhyF-8l) -->
 
 We design our VR modules based on globally adopted tests and metrics specially designed to instill essential skills for children.
 
