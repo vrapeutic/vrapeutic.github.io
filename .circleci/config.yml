@@ -2,7 +2,7 @@ version: 2.1
 orbs:
   node: circleci/node@3.0.0
 jobs:
-  build:
+  build_site:
     executor:
       name: node/default
       tag: '10.4'
