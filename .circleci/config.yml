@@ -14,7 +14,11 @@ jobs:
           command: npm run build
       - run:
           name: Deploy Site
-          command: GIT_USER=${GIT_USER} yarn deploy
+          command: |
+            git config --global user.email "${GIT_EMAIL}"
+            git config --global user.name "${GIT_USERNAME}"
+            echo "machine github.com login ${GIT_USERNAME} password ${GIT_TOKEN}" > ~/.netrc
+            GIT_USER=${GIT_USERNAME} yarn deploy
 
 workflows:
   version: 2
