@@ -122,3 +122,11 @@
 
   /* max-width: 768px; */
 }
+
+.team {
+  background-image: linear-gradient(white, #dcdcdc);
+  /* background-color: whitesmoke; */
+  color: #20232a;
+  margin: 0 auto;
+  text-align: center;
+}
