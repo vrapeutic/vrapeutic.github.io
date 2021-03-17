@@ -19,3 +19,5 @@ A technical guide that shows the exact steps you need to do.
 You can check out the [Original Medium Article](https://alaa-hesham.medium.com/blazepose-for-full-body-keypoints-extraction-dc92a5bcdeb0) here.
 
 :::
+
+BlazePose is a model that extracts body keypoints from a single image. It exactly infers 33, 2D landmarks of a human body from a single frame such as shoulders, elbows, and knees as illustrated in the previous figure . **To know more about what it is**, how its performance is revolutionary compared to its counterparts, and how to use it for upper body pose estimation , **Kindly refer to [this article**](https://vrapeutic.github.io/blog/blazepose-part-1) . It represents the first part of BlazePose’s article series.
