@@ -10,4 +10,7 @@ tags: [computer-vision, research, pose-estimation,virtual reality]
 
 A technical guide that shows the exact steps you need to do.
 
-![i8](/img/Figure 8.jpg)
+![i8](/img/Figure8.jpeg)
+
+![went](https://miro.medium.com/max/700/1*QveuIkCz7bYYp1_NjMicQw.jpeg)
+
