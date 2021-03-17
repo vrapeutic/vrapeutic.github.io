@@ -11,7 +11,7 @@ tags: [computer-vision, research, pose-estimation,virtual reality]
 A technical guide that shows the exact steps you need to do.
 
 
-![i10](/img/Figure 8.jpeg)
+
 ![MrWentworth](https://miro.medium.com/max/2400/1*QveuIkCz7bYYp1_NjMicQw.jpeg)
 
 :::note
