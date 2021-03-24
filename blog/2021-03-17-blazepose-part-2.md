@@ -54,7 +54,19 @@ The challenge lies in being quite newbie in mobile development such as Android D
 * **Finally**, showing BlazePose’s results .
 
  
- ### Now let’s elaborate on every step
+ >## Now let’s elaborate on every step
+
+### For the first step:
+We need to download and set up Integrated Development Environment (IDE) for **Android** app development.**Android Studio** is the official integrated development environment (IDE) for Google’s Android operating system. I highly recommend to download and set up android studio using
+[this tutorial](https://www.youtube.com/watch?v=0zx_eFyHRU0&t=3s).
+
+![i5](/img/Figure-9.jpg)
+
+<div align="center" >
+  <i> Android Studio Components’ installation </i>
+</div>
+
+
 
 
 
