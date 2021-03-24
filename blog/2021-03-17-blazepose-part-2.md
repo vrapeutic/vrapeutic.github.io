@@ -66,7 +66,79 @@ We need to download and set up Integrated Development Environment (IDE) for **An
   <i> Android Studio Components’ installation </i>
 </div>
 
+After finishing this tutorial, you now have made your “hello world” project in Android studio.
+
+### For the second step :
+
+We are up to install some components such as SDKS and Android Emulator on your IDE that you will need later on. That is why **you need to ensure that the following components are available on your Android studio** by installing them if they are not installed yet.
+
+* Android SDK Build-Tools
+* Android Emulator
+* Android SDK Platform-Tools
+* Android SDK Tools
+* Intel X86 Emulator Accelerator
+
+IF you are asking how to check or install them , **from Tools >SDK manager. >Android SDK>SDK Tools.**
+
+>The following figures show where these orders lie in Android Studio Interface.
+
+![i6](/img/Figure-10.jpg)
+<div align="center" >
+  <i> GO to tools ,then click on SDK Manager </i>
+</div>
+
+![i7](/img/Figure-12.jpg)
+<div align="center">
+<i>Click on Android SDK , then pick SDK Tools, select the highlighted components , finally click OK.</i>
+</div>
+
+![i8](/img/Figure-11.jpg)
+<div align="center" >
+<i> Now switch to SDK Platforms , you may want to pick “Android 7.1.1(Nougat)” to be your SDK Platforms </i>
+</div>
+
+### For the third step :
+
+Now we are going to download “ML kit API” code of their quick start app in Android. **In ML kit github repository, you can find a quick start app** where you can run/infer through the model with no need to write even a single line of code. Download the code from [here](https://github.com/googlesamples/mlkit).
+
+### For the fourth step :
+Now we want to go to the file where you can run the app. **Open the project using Android studio , go to the following file to run the app**: mlkit-master\mlkit-master\android\vision-quickstart\app\src\main\java\com\google\mlkit\vision\demo\java\CameraXLivePreviewActivity.java
+
+This is the activity file. An **activity** file represents a single screen with a user interface to interact with. If you have worked with C, C++ programming language, then this file is like your main() function.
+
+### For the fifth step :
+> Now you need to create the Android virtual device (AVD) you will run your app on. Remember that ml kit is a mobile SDK. As a result, if you want to run it on your pc/laptop, you will need to install Android Emulator as we did in the second step as well as creating virtual android device with capabilities that allow you to test the app on.
+
+As we highlighted before this step involves many stages where you need to:
+
+1. Create your virtual device .
+2. Choose your device definition .
+3. Determine your virtual device’s hardware capabilities.
+4. Select a system image .
+5. Finally verify the configuration .
 
 
+> **To create your virtual device** , from tools >AVD manager :
 
+![i9](img/Figure-13.jpg)
+
+<div align="center" >
+  <i> Android Studio Components’ installation </i>
+</div>
+
+Click on “Create Virtual Device”
+
+![i10](img/Figure-14.jpg)
+
+<div align="center" >
+  <i> Create Virtual Device </i>
+</div>
+
+> **To choose your device definition**, Click on Phone tab >Nesus 5>click on New Hardware Profile.
+
+![i11](img/Figure-15.jpg)
+
+<div align="center" >
+  <i> Device Definition </i>
+</div>
 
