@@ -289,4 +289,4 @@ Now let’s view more examples of Blazepose’s performance for full body keypoi
 
 ### Conclusion:
 
-**In this part** , we have illustrated the exact steps you need to do to try/infer through Blazepose for full body pose estimation. ** In the next part** , we will view some of the errors which there is a chance to encounter and how to solve them. So you may want to follow us to get notified when the next part is out.
+**In this part** , we have illustrated the exact steps you need to do to try/infer through Blazepose for full body pose estimation. **In the next part** , we will view some of the errors which there is a chance to encounter and how to solve them. So you may want to follow us to get notified when the next part is out.
