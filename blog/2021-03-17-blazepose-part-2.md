@@ -142,3 +142,151 @@ Click on “Create Virtual Device”
   <i> Device Definition </i>
 </div>
 
+*P.S. We choose Nesus 5 if you have a reason to pick another one , go on.*
+
+>**To determine your virtual device's hardware capabilities**, Click on "New Hardware Profile" as shown in the previous figure. Then determine the hardware capabilities of your Android Virtual Device .
+
+One of the options is the Camera. To enable the camera, select one or both options:
+
+* Back-Facing Camera - where the lens faces away from the user.
+* Front-Facing Camera -where the lens faces toward the user.
+
+![i12](img/configure-hardware.jpg)
+
+<div align="center" >
+  <i> Configure Hardware Profile </i>
+</div>
+
+Now click "finish", and then hit the "Next" button to complete your Virtual Android Device settings.
+
+>**Tip**: If you are willing to understand more about Android Virtual Device aka understanding why we are doing these steps , I highly recommend [this resource .](https://developer.android.com/studio/run/managing-avds)
+
+>To select your System image, you will find that system images are divided into three categories : Recommended , x86 Images, and other images . However, let's give a brief definition of system image before choosing one.
+
+Android system images are just versions of Android that you can run on a computer. So if you wanted to test a certain version of Android, you could download and run it on the emulator to see what this Android version is like. Or if you wanted to test your app against it to check if your app runs smoothly on it.
+
+Now the category of system image we will select is "x86 image" , especially we have chosen Nougat with API Level :25, ABI:x86_64 ,and Target Android 7.1.1 . It represents Android Open Source Project (AOSP) system image.
+
+![i13](/img/Figure-16.jpg)
+
+<div align="center" >
+  <i> x86 Images </i>
+</div>
+
+We would like to justify why we have chosen this category of system images . *That is why the next three paragraphs will be dedicated for that purpose. You can skip them if you are not interested .*
+
+### Here is the definition and usage of every category:
+
+* **Recommended**
+
+They contain access to Google Play services and they are labeled with Google APIs. The main advantage is that they provide convenient button for updating Google Play services on the device. However, this advantage comes with a price which is to ensure app security you cannot get elevated privileges root with these images. For example, you cannot directly upload files to your AVD's external storage. That is why we did not prefer this option at the beginning.
+
+* **x86 Images** 
+This category of system images is more general. It contains images with Google Play services and others which are Android Open Source Project (AOSP) system images .If you require elevated privileges (root) to aid with your app troubleshooting, you can use AOSP system images .That is why we picked this type of system images to give us this troubleshooting freedom.
+
+* **Other Images**
+This tap includes all previous types in addition to Deprecated and out of date ones. That is why we did not prefer this option.
+
+>**To verify the configuration**, *You need to specify the AVD Name. If you wish to use your host computer webcam or built-in camera, then choose the type of front and back camera to be Webcam0.Click on Finish*.
+
+![i14](/img/Figure-17.jpg)
+<div align="center" >
+  <i> Verifying AVD Configurations </i>
+</div>
+
+
+"Congratulations for Creating your Android Virtual Device !"
+
+### For the Sixth step :
+
+To open the Run/Debug Configurations dialog, select **Run > Edit Configurations**. The **Run/Debug Configurations** dialog appears, kindly choose them to be as illustrated in the following Figure.
+
+![i15](/img/Figure-19.jpg)
+<div align="center">
+<i> Appropriate Run/Debug Configurations </i>    
+</div>
+
+### For the Seventh step :
+
+To run the app, Pick the Name of AVD you have created. E.g. Nexus 5X API 25.
+
+![i16](/img/Figure-20.jpg)
+<div align="center">
+<i> Pick the Name of AVD  </i> 
+</div>
+
+Then, make sure that you open this file in Android studio: “mlkitmaster\mlkitmaster\android\visionquickstart\app\src\main\java\com\google\mlkit\vision\demo\java\CameraXLivePreviewActivity.java
+
+Finally, Click the green arrow as illustrated on the following image or hit Shift+F10 buttons.
+
+![i17](/img/Figure-21.jpg)
+<div align="center">
+<i> Run the app </i>
+</div>
+
+### For the Eighth Step:
+
+> *Let’s deal with ML Kit’s easy-to-use interface*
+
+Now if everything is okay, you will find the following screen appear on your
+AVD a. It asks you to choose which programming language you will prefer to run the app with. Personally, we have chosen Java. **If running your app results in error. Kindly, refer to the next part of this article series where we talk about some technical errors that run into us and how we have solved them.**
+
+
+Now you can choose to run the app on live camera or still images. We have chosen “StillImagesActivity” as we needed to insert static images and run the app on them.
+
+![i18](/img/Figure-22.jpg)
+
+<dev align="center">
+<i>  
+Left Figure: ML Kit interface
+ </i>
+</dev>
+
+Right Figure : Infer the model on static images, choose the second option    
+
+Since we want to try BlazePose for pose detection, click on the arrow as illustrated on the following image and choosing **Pose Detection**. It will ask you if you want to **choose images from album** or in other words from your Android Virtual Device storage **or take image** using your host computer’s webcam. As we have already uploaded images to test on AVD’s storage, we have chosen to select image from album.
+
+![i19](/img/Figure-23.jpg)
+
+<dev  align="center">
+
+<i>
+Left Figure : Pose Detection
+</i>
+</dev>
+
+<dev  align="center">
+<i>
+Right Figure : Choose Select image from album 
+</i>
+</dev>
+
+
+Now you can choose images from your AVD internal storage or external
+storage.
+
+If you do not know how to upload images to your AVD’s storage nor how to view them. **Kindly follow us to get notified when the third part of this article series is available where we explain how to upload images and overcome the problem of not being able to view them on AVD.**
+
+Once you have chosen the image , you will find that the model has been applied on it and you will see body keypoints illustrated in white as in the following image.
+
+>**Congratulations…..You have Earned it .. Here is the Final step where we view the Results**
+
+![i20](/img/Figure-24.jpg)
+<dev  align="center">
+<i> Apply the model on the image. </i>
+</dev>
+
+### BlazePose's Results:
+
+Now let’s view more examples of Blazepose’s performance for full body keypoints Extraction.
+
+![i21](/img/Figure-25.jpg)
+<dev align="center">
+
+<i> BlazePose’s Results </i>
+
+</dev>
+
+### Conclusion:
+
+**In this part** , we have illustrated the exact steps you need to do to try/infer through Blazepose for full body pose estimation. ** In the next part** , we will view some of the errors which there is a chance to encounter and how to solve them. So you may want to follow us to get notified when the next part is out.
