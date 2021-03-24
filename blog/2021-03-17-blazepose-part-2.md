@@ -10,8 +10,6 @@ tags: [computer-vision, research, pose-estimation,virtual reality]
 
 A technical guide that shows the exact steps you need to do.
 
-
-
 ![MrWentworth](https://miro.medium.com/max/2400/1*QveuIkCz7bYYp1_NjMicQw.jpeg)
 
 :::note
@@ -21,3 +19,7 @@ You can check out the [Original Medium Article](https://alaa-hesham.medium.com/b
 :::
 
 BlazePose is a model that extracts body keypoints from a single image. It exactly infers 33, 2D landmarks of a human body from a single frame such as shoulders, elbows, and knees as illustrated in the previous figure . **To know more about what it is**, how its performance is revolutionary compared to its counterparts, and how to use it for upper body pose estimation , **Kindly refer to [this article](https://vrapeutic.github.io/blog/blazepose-part-1)** . It represents the first part of BlazePose’s article series.
+
+In this article , which represents the second part of BlazePose’s article series , we will illustrate **the exact technical steps you need to do to try/infer through Blazepose for full body pose estimation .**
+
+>It is worth mentioning that currently, Jan 2021, the full body is only available on Android and iOS through ML Kit API.
