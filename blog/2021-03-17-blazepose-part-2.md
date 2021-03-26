@@ -243,9 +243,10 @@ Now you can choose to run the app on live camera or still images. We have chosen
   
 
 <dev align="center">
-<i> Right Figure : Infer the model on static images, choose the second option 
+<i> Right Figure : Infer the model on static images, choose the second option. 
  </i>
 </dev>
+   
    
 
 Since we want to try BlazePose for pose detection, click on the arrow as illustrated on the following image and choosing **Pose Detection**. It will ask you if you want to **choose images from album** or in other words from your Android Virtual Device storage **or take image** using your host computer’s webcam. As we have already uploaded images to test on AVD’s storage, we have chosen to select image from album.
