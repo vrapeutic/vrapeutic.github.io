@@ -123,7 +123,7 @@ As we highlighted before this step involves many stages where you need to:
 ![i9](img/Figure-13.jpg)
 
 <div align="center" >
-  <i> Android Studio Components’ installation </i>
+  <i> From tools , choose AVD Manager </i>
 </div>
 
 Click on “Create Virtual Device”
@@ -161,11 +161,11 @@ Now click "finish", and then hit the "Next" button to complete your Virtual Andr
 
 >**Tip**: If you are willing to understand more about Android Virtual Device aka understanding why we are doing these steps , I highly recommend [this resource .](https://developer.android.com/studio/run/managing-avds)
 
->To select your System image, you will find that system images are divided into three categories : Recommended , x86 Images, and other images . However, let's give a brief definition of system image before choosing one.
+>**To select your System image**, you will find that system images are divided into three categories : **Recommended , x86 Images, and other images.** However, let's give a brief definition of system image before choosing one
 
 Android system images are just versions of Android that you can run on a computer. So if you wanted to test a certain version of Android, you could download and run it on the emulator to see what this Android version is like. Or if you wanted to test your app against it to check if your app runs smoothly on it.
 
-Now the category of system image we will select is "x86 image" , especially we have chosen Nougat with API Level :25, ABI:x86_64 ,and Target Android 7.1.1 . It represents Android Open Source Project (AOSP) system image.
+Now the category of system image we will select is **"x86 image"**, especially we have chosen **Nougat** with API Level :25, ABI:x86_64 ,and Target Android 7.1.1 . It represents Android Open Source Project (AOSP) system image.
 
 ![i13](/img/Figure-16.jpg)
 
@@ -237,12 +237,16 @@ Now you can choose to run the app on live camera or still images. We have chosen
 ![i18](/img/Figure-22.jpg)
 
 <dev align="center">
-<i>  
-Left Figure: ML Kit interface
+<i>Left Figure: ML Kit interface.    
  </i>
 </dev>
+  
 
-Right Figure : Infer the model on static images, choose the second option    
+<dev align="center">
+<i> Right Figure : Infer the model on static images, choose the second option 
+ </i>
+</dev>
+   
 
 Since we want to try BlazePose for pose detection, click on the arrow as illustrated on the following image and choosing **Pose Detection**. It will ask you if you want to **choose images from album** or in other words from your Android Virtual Device storage **or take image** using your host computer’s webcam. As we have already uploaded images to test on AVD’s storage, we have chosen to select image from album.
 
@@ -269,7 +273,7 @@ If you do not know how to upload images to your AVD’s storage nor how to view 
 
 Once you have chosen the image , you will find that the model has been applied on it and you will see body keypoints illustrated in white as in the following image.
 
->**Congratulations…..You have Earned it .. Here is the Final step where we view the Results**
+### **Congratulations…..You have Earned it .. Here is the Final step where we view the Results**
 
 ![i20](/img/Figure-24.jpg)
 <dev  align="center">
