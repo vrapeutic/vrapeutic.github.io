@@ -29,10 +29,8 @@ In this article , which represents the second part of BlazePose’s article seri
 The challenge lies in being quite newbie in mobile development such as Android Development. In this tutorial/article, we will walk you through how to try ml kit with no need to have any previous experience in Android development.
 
 :::note
-
- This Article is a part of a technical research project that has been conducted by R&D department at Yuram. Yuram is a product of VRapeutic– a software company specialized in therapeutic applications based in Egypt.
-
- :::
+This Article is a part of a technical research project that has been conducted by R&D department at Yuram. Yuram is a product of VRapeutic– a software company specialized in therapeutic applications based in Egypt.
+:::
 
 ### Here are the steps you need to do summarized, we will then unfold each step clearly and in a great detail:
 
