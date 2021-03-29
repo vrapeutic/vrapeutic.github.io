@@ -82,17 +82,17 @@ IF you are asking how to check or install them , **from Tools >SDK manager. >And
 
 >The following figures show where these orders lie in Android Studio Interface.
 
-![i6](/img/Figure-10.jpg)
+![i6](/img/Figure-10.PNG)
 <div align="center" >
   <i> GO to tools ,then click on SDK Manager </i>
 </div>
 
-![i7](/img/Figure-12.jpg)
+![i7](/img/Figure-12.png)
 <div align="center">
 <i>Click on Android SDK , then pick SDK Tools, select the highlighted components , finally click OK.</i>
 </div>
 
-![i8](/img/Figure-11.jpg)
+![i8](/img/Figure-11.png)
 <div align="center" >
 <i> Now switch to SDK Platforms , you may want to pick “Android 7.1.1(Nougat)” to be your SDK Platforms </i>
 </div>
@@ -120,7 +120,7 @@ As we highlighted before this step involves many stages where you need to:
 
 > **To create your virtual device** , from tools >AVD manager :
 
-![i9](img/Figure-13.jpg)
+![i9](/img/Figure-13.PNG)
 
 <div align="center" >
   <i> From tools , choose AVD Manager </i>
@@ -128,7 +128,7 @@ As we highlighted before this step involves many stages where you need to:
 
 Click on “Create Virtual Device”
 
-![i10](img/Figure-14.jpg)
+![i10](/img/Figure-14.JPG)
 
 <div align="center" >
   <i> Create Virtual Device </i>
@@ -136,7 +136,7 @@ Click on “Create Virtual Device”
 
 > **To choose your device definition**, Click on Phone tab >Nesus 5>click on New Hardware Profile.
 
-![i11](img/Figure-15.jpg)
+![i11](/img/Figure-15.jpg)
 
 <div align="center" >
   <i> Device Definition </i>
@@ -151,7 +151,7 @@ One of the options is the Camera. To enable the camera, select one or both optio
 * Back-Facing Camera - where the lens faces away from the user.
 * Front-Facing Camera -where the lens faces toward the user.
 
-![i12](img/configure-hardware.jpg)
+![i12](/img/configure-hardware.jpg)
 
 <div align="center" >
   <i> Configure Hardware Profile </i>
@@ -167,7 +167,7 @@ Android system images are just versions of Android that you can run on a compute
 
 Now the category of system image we will select is **"x86 image"**, especially we have chosen **Nougat** with API Level :25, ABI:x86_64 ,and Target Android 7.1.1 . It represents Android Open Source Project (AOSP) system image.
 
-![i13](/img/Figure-16.jpg)
+![i13](/img/Figure-16.PNG)
 
 <div align="center" >
   <i> x86 Images </i>
@@ -189,7 +189,7 @@ This tap includes all previous types in addition to Deprecated and out of date o
 
 >**To verify the configuration**, *You need to specify the AVD Name. If you wish to use your host computer webcam or built-in camera, then choose the type of front and back camera to be Webcam0.Click on Finish*.
 
-![i14](/img/Figure-17.jpg)
+![i14](/img/Figure-17.PNG)
 <div align="center" >
   <i> Verifying AVD Configurations </i>
 </div>
@@ -210,7 +210,7 @@ To open the Run/Debug Configurations dialog, select **Run > Edit Configurations*
 
 To run the app, Pick the Name of AVD you have created. E.g. Nexus 5X API 25.
 
-![i16](/img/Figure-20.jpg)
+![i16](/img/Figure-20.png)
 <div align="center">
 <i> Pick the Name of AVD  </i> 
 </div>
