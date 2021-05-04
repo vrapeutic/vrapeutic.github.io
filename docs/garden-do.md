@@ -1,10 +1,10 @@
 ---
-id: garden-do
-title: GardenDo
-sidebar_label: GardenDo
+id: garden-do-vr-module-description
+title: GardenDo | VR Module Description
+sidebar_label: VR Module
 ---
 
-##  [Put on your VR Headset & Try it out!](https://ellie-tale1.web.app/)  
+##  [Put on your VR Headset & Try it out!](https://gardendo-webxr.web.app/)  
 
 ## [Check GardenDo's GitHub Repository](https://github.com/vrapeutic/GardenDoWebXR)
 
