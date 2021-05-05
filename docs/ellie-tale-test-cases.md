@@ -21,7 +21,7 @@ sidebar_label: Test Cases
 |                       	|     Beach          	| Beach:   The objective is to collect fish and fishing tools                   	|
 |  	                      |               	    | Library: The objective is to collect letters                	|
 
-## Gameplay (closed-time)
+## Gameplay
 
 The expected behaviours can be one of the following:
 - A clear description of the expected behaviour in the scene
@@ -99,82 +99,3 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:         None                                                      	|
 |                                       	| Interactions:    same as level 2                                                        	|
 |                                       	| Statistics:       same as level 2                                                     	|
-
-## Gameplay (open-time)
-
-The expected behaviours can be one of the following:
-- A clear description of the expected behaviour in the scene
-- None
-- Same as in (mention another expected behaviour)
-
-### Level 1
-
-| Action                                   	|                                Expected Behavior                                	|
-|------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                   	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-
-### Level 2
-
-| Action                                   	|                                Expected Behavior                                	|
-|------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-
-### Level 3
-
-| Action                                   	|                                Expected Behavior                                	|
-|------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
