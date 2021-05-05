@@ -88,6 +88,8 @@ The expected behaviours can be one of the following:
 |                                       	| Interactions: same as level 1                                               	|
 |                                       	| Statistics: same as level 1                              |
 
+## Level 3
+
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
 | Level Started                            	| Animations: same as level 2                                                            	|
