@@ -40,7 +40,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:  Illy says the object name                                                         	|
 |                                       	| Sounds:   None                                                                  	|
 |                                       	| Interactions: The object disappears in 5s,Illy flies to next one                                                           	|
-|                                       	| Statistics:   score +1 ,task counter +1                                                        	|
+|                                       	| Statistics:   score +1 ,task counter +1   ,response time Average time between finishing a task (Opening a box) and starting the following task (Opening the next box), throughout a session.                                                    	|
 | Getting distracted or performing poorly: 	| Animations:Illy moves in front of player animation                                                           	|
 |                                       	| Voice overs:   Illy asks again                                                         	|
 |                                       	| Sounds:              None                                                 	|
@@ -50,55 +50,55 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:     Illy thanks the player                                                      	|
 |                                       	| Sounds:      None                                                         	|
 |                                       	| Interactions:       Illy and the player are done collecting all objects                                                     	|
-|                                       	| Statistics:  calculate Actual Attention Span and session time                                             	|
+|                                       	| Statistics:  final Actual Attention Span and session time                                             	|
 
 ### Level 2
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
+| Level Started                            	| Animations:  same as level 1 expect that Noah will walk around on the same track as an animated distractor.                                                          	|
+|                                       	| Voice overs:      same as level 1                                                     	|
+|                                       	| Sounds:      None                                                         	|
+|                                       	| Interactions:  same as level 1 expect that Noah will walk around on the same track as an animated distractor                                                       	|
+| Perform a task successfully              	| Animations: same as level 1                                         	|
+|                                       	| Voice overs:    same as level 1                                                       	|
+|                                       	| Sounds:        None                                                       	|
+|                                       	| Interactions: same as level 1                                                          	|
+|                                       	| Statistics:    same as level 1                                                       	|
+| Getting distracted or performing poorly: 	| Animations:  same as level 1                                                         	|
+|                                       	| Voice overs:    same as level 1                                                       	|
+|                                       	| Sounds:             None                                                  	|
+|                                       	| Interactions:       same as level 1                                                    	|
+|                                       	| Statistics:        same as level 1 and   Distracting time+1                                           	|
+| Level Ended                              	| Animations:      same as level 1                                                     	|
+|                                       	| Voice overs:     same as level 1                                                      	|
+|                                       	| Sounds:       None                                                        	|
+|                                       	| Interactions:  same as level 1                                                         	|
+|                                       	| Statistics:    same as level 1                                                        	|
 
 ### Level 3
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
+| Level Started                            	| Animations: same as level 2                                                            	|
+|                                       	| Voice overs:  same as level 2 and Noah will ask the player to shake or point at an obstacle to reveal more objects                                                         	|
+|                                       	| Sounds:            None                                                   	|
+|                                       	| Interactions: same as level 1 but also the player should follow Uncle Noah’s instructions and point at noah and click to open the target                                                        	|
+| Perform a task successfully              	| Animations: same as level 2                                                           	|
+|                                       	| Voice overs: same as level 2                                      	|
+|                                       	| Sounds:       None                                                 	|
+|                                       	| Interactions:  same as level 2                                                         	|
+|                                       	| Statistics:   same as level 2 but response time will be The average (throughout the whole session) between:Average time between finishing a task and starting the following task, throughout a session and Average time between average time from Noah hit box and player response, throughout a session                                       |
+| Getting distracted or performing poorly: 	| Animations:    same as level 2                                                       	|
+|                                       	| Voice overs:   same as level 2                                                         	|
+|                                       	| Sounds:         None                                                      	|
+|                                       	| Interactions:   same as level 2                                                         	|
+|                                       	| Statistics:     same as level 2                                                       	|
+| Level Ended                              	| Animations:   same as level 2                                                         	|
+|                                       	| Voice overs:    same as level 2                                                        	|
+|                                       	| Sounds:         None                                                      	|
+|                                       	| Interactions:    same as level 2                                                        	|
+|                                       	| Statistics:       same as level 2                                                     	|
 
 ## Gameplay (open-time)
 
@@ -111,7 +111,7 @@ The expected behaviours can be one of the following:
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
+| Level Started                            	| Animations:                                                   	|
 |                                       	| Voice overs:                                                           	|
 |                                       	| Sounds:                                                               	|
 |                                       	| Interactions:                                                           	|
