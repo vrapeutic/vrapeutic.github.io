@@ -10,16 +10,22 @@ sidebar_label: Test Cases
 |-----------------------	|:-------------:	|:--------------------------:	|
 | Language Selection    	|       English     	|      English  : instructions in English
 |                         |                     |       Arabic  : instructions in Arabic(not implemented yet)
-| Level Selection       	|                   	| Level 1: The player must reveal all objects  |                  |
+| Level Selection       	|                   	| Level 1:  tree in front of the player which contains the targets that the player has to shoot at.  |                  |
 |                         |                     | Level 2: The main objective is the same as Level 1. However, while collecting the objects with Ellie, Noah will walk around on the same track as an animated distractor 	     |
-|                         |       3             | Level 3: The main objective is the same as Level 2. However, after the player is done collecting the objects with Ellie, Noah will ask the player to shake or point at an obstacle to reveal more objects.            	        |
-| Timer Selection       	|                   	| 30: The player must reveal all objects in less than 30Sec                         	|
-|                         |                     | 60: The player must reveal all objects in less than 60Sec       	        |
-|                         |                     | 90: The player must reveal all objects in less than 90Sec            	            |
+|                         |       3             | Level 3: The main objective is the same as Level 2. However, after the player hits a target, a small ball is popping up from the target's position to the player, and he should move away before hitting him because he will lose one of his lives.
+| Timer Selection       	|                   	| 30: The player must shoot at all targets in less than 30Sec                         	|
+|                         |                     | 60: The player must shoot at all targets in less than 60Sec       	        |
+|                         |                     | 90:The player must shoot at all targets in less than 90Sec            	            |
 |                         |        Open         | Open: There's no timer at the game              	        |
-| Environment Selection 	|                   	| Garden:  The objective is to collect fruits                    	|
-|                       	|     Beach          	| Beach:   The objective is to collect fish and fishing tools                   	|
-|  	                      |               	    | Library: The objective is to collect letters                	|
+| Arrows Selection       	|                     | 25:  The number of the player's Arrows will be 25                    	|
+|                       	|                   	| 50:   The number of the player's Arrows will be 50                  	|
+|  	                      |         75      	  | 75: The number of the player's Arrows will be 75                	|
+| Distance Selection    	|                   	| 5:  The distance and trees with target will be 5                 	|
+|  	                      |               	    | 7:  The distance and trees with target will be 7                	|
+|                       	|        10          	| 10:  The distance and trees with target will be 10                  	|
+| Character Selection     |       male      	  | male: The non palyer Character will be Hussien               	|
+|                       	|                     | female: The non palyer Character will be Reem                 	|
+
 
 ## Gameplay
 
@@ -32,8 +38,8 @@ The expected behaviours can be one of the following:
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            | Animations: Illy flying in front of player and Uncle Noah standing to the side working    |                                                      
-|                                       	| Voice overs: Illy introduces the game to the player                                                         	|
+| Level Started                            | Animations: The NPC waves their hand    |                                                      
+|                                       	 | Voice overs: Illy introduces the game to the player                                                         	|
 |                                       	| Sounds:  None                                                            	|
 |                                       	| Interactions: Illy points at the first object with her wand,The object lights up and glow.                                                                          	|
 | Perform a task successfully             | Animations: Illy flips and dances happily,target opens animation ,object animation                                                          	|
