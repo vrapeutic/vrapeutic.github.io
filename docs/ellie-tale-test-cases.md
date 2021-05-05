@@ -46,11 +46,17 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:              None                                                 	|
 |                                       	| Interactions:If the player doesn’t follow illy for  3s, Illy asks again and moves in front of the player                                                        	|
 |                                       	| Statistics: duration (not count) of interruptions+1                                                        	|
-| Level Ended                              	| Animations:   happy Illy dancing animation                                                         	|
+| Level Ended                              |	                                                                                   |
+|   Win:                                     | Animations:   happy Illy dancing animation                                                         	|
 |                                       	| Voice overs:     Illy thanks the player                                                      	|
 |                                       	| Sounds:      None                                                         	|
-|                                       	| Interactions:       Illy and the player are done collecting all objects                                                     	|
-|                                       	| Statistics:  final Actual Attention Span and session time                                             	|
+|                                       	| Interactions: Illy and the player are done collecting all objects                                                	|
+|                                       	| Statistics:  final Actual Attention Span and session time |
+|   Lost(with Closed time option):        | Animations:  Illy’s glow is reduced and she is sad                                                         	|
+|                                       	| Voice overs:   Illy tells the player that they’re too slow and Uncle Noah must leave now.                                                      	|
+|                                       	| Sounds:      None                                                         	|
+|                                       	| Interactions: Back to menu                                               	|
+|                                       	| Statistics:  final Actual Attention Span and session time |
 
 ### Level 2
 
@@ -70,13 +76,17 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:             None                                                  	|
 |                                       	| Interactions:       same as level 1                                                    	|
 |                                       	| Statistics:        same as level 1 and   Distracting time+1                                           	|
-| Level Ended                              	| Animations:      same as level 1                                                     	|
-|                                       	| Voice overs:     same as level 1                                                      	|
-|                                       	| Sounds:       None                                                        	|
-|                                       	| Interactions:  same as level 1                                                         	|
-|                                       	| Statistics:    same as level 1                                                        	|
-
-### Level 3
+| Level Ended                              |	                                                                                   |
+|   Win:                                     | Animations:   same as level 1                                                    	|
+|                                       	| Voice overs:     same as level 1                                                    	|
+|                                       	| Sounds:      None                                                         	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics:  same as level 1 |
+|   Lost(with Closed time option):        | Animations: same as level 1                                                        	|
+|                                       	| Voice overs:   same as level 1                                                      	|
+|                                       	| Sounds:      None                                                         	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics: same as level 1                              |
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
@@ -94,8 +104,14 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:         None                                                      	|
 |                                       	| Interactions:   same as level 2                                                         	|
 |                                       	| Statistics:     same as level 2                                                       	|
-| Level Ended                              	| Animations:   same as level 2                                                         	|
-|                                       	| Voice overs:    same as level 2                                                        	|
-|                                       	| Sounds:         None                                                      	|
-|                                       	| Interactions:    same as level 2                                                        	|
-|                                       	| Statistics:       same as level 2                                                     	|
+| Level Ended                              |	                                                                                   |
+|   Win:                                     | Animations:   same as level 1                                                    	|
+|                                       	| Voice overs:     same as level 1                                                    	|
+|                                       	| Sounds:      None                                                         	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics:  same as level 1 |
+|   Lost(with Closed time option):        | Animations: same as level 1                                                        	|
+|                                       	| Voice overs:   same as level 1                                                      	|
+|                                       	| Sounds:      None                                                         	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics: same as level 1                              |
