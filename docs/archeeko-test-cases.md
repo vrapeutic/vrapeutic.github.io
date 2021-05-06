@@ -58,8 +58,7 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:        winnig sound                                                       	|
 |                                       	| Interactions:  the player are done hitting all targets                                                	|
 |                                       	| Statistics:  final Actual Attention Span and session time |
-
-|   Lost:                                  | Animations:  npc is sad                                                         	|
+|   Lost:                                 | Animations:  npc is sad                                                         	|
 |                                       	| Voice overs:   The NPC tells the player to try again and the level .                                                      	|
 |                                       	| Sounds: losing sound                                                         	|
 |                                       	| Interactions: the player finishes his arrows or time out if it closed time;                                              	|
@@ -120,8 +119,7 @@ The expected behaviours can be one of the following:
 |                                       	| Interactions: same as level 1                                               	|
 |                                       	| Statistics:  same as level 1 |
 |   Lost:                                 | Animations: same as level 1 -ball twords the player                                                       	|
-|                                       	| Voice overs:   same as level 1 and npc will ask the player to move before the ball hits him                                                 	|
+|                                       	| Voice overs:   same as level 1 and npc will ask the player to move before the ball hits him                                        	|
 |                                       	| Sounds:      same as level 2                                                          	|
-|                                       	| Interactions: same as level 1 but also when the player hits a gift a ball comes out from the gift towards the player. 
-target ,the player to move before the ball hits him                                                       	|                                              	|
+|                                       	| Interactions: same as level 1 but also when the player hits a target a ball comes out from the gift towards the player,the player has to move before the ball hits him                                                       	                                             	|
 |                                       	| Statistics: same as level 2                             |
