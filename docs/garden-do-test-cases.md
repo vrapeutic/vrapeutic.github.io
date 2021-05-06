@@ -14,7 +14,6 @@ sidebar_label: Test Cases
 |                           |                   | Level 2: 	 The main objective is the same as Level 1. However, while watering a butterfly will fly around him as distractor                   |
 |                           |                   | Level 3:   Level 3: The main objective is the same as Level 2. However,while watering a flying bird could land on the flower he is watering and stop the watering process until the player touches it and makes it flies         	        |
 | Timer Selection       	|               	|     Open: There's no timer at the game                     	|
-
 | Environment Selection 	|               	| Garden:                    	|
 
 
