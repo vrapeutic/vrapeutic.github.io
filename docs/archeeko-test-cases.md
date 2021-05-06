@@ -38,70 +38,90 @@ The expected behaviours can be one of the following:
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            | Animations: The NPC waves their hand    |                                                     
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
+| Level Started                           | Animations: The NPC waves their hand    |                                                     
+|                                       	| Voice overs: The NPC introduces themselves                                                       	|
+|                                       	| Sounds: background music-Sounds of the bow stretching and the arrow release should be played when the player uses the arrow         	|
+|                                        	| Interactions: The player must shoot at the targets on the fir tree.                                                                   |
+| Perform a task successfully             | Animations: targets falls from the tree and produces a particle system, arrow's realse animation                                                |
+|                                       	| Voice overs: NPC should tell the player good job and encourage the player to continue                                             	|
+|                                       	| Sounds:   Sound played when target is hit                                                                  	|
+|                                       	| Interactions: e player hits a target, it falls from the tree and produces a particle system                                        	|
+|                                       	| Statistics:   score +1 ,task counter +1   ,response time Average time between finishing a task (hit a target) and starting the following task (hiting the next target), throughout a session.                                                    	|
+| Getting distracted or performing poorly: 	| Animations: none                                                           	|
+|                                       	| Voice overs:   npc  asks again                                                         	|
+|                                       	| Sounds:              None                                                 	|
+|                                       	| Interactions:If the player doesn’t look at ther tree  for  3s, npc asks again to hit the targets                                                        	|
+|                                       	| Statistics: duration (not count) of interruptions+1                                                        	|
+| Level Ended                              |	                                                                                   |
+|   Win:                                     | Animations:   happy npc  animation                                                         	|
+|                                       	| Voice overs:     npc thanks the player                                                      	|
+|                                       	| Sounds:        winnig sound                                                       	|
+|                                       	| Interactions:  the player are done hitting all targets                                                	|
+|                                       	| Statistics:  final Actual Attention Span and session time |
+
+|   Lost:                                  | Animations:  npc is sad                                                         	|
+|                                       	| Voice overs:   The NPC tells the player to try again and the level .                                                      	|
+|                                       	| Sounds: losing sound                                                         	|
+|                                       	| Interactions: the player finishes his arrows or time out if it closed time;                                              	|
+|                                       	| Statistics:  final Actual Attention Span and session time |
 
 ### Level 2
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
+| Level Started                            	| Animations:  same as level 1 expect that butterflyy  is flying around .                                                          	|
+|                                       	| Voice overs:      same as level 1                                                     	|
+|                                       	| Sounds:       same as level 1                                                          	|
+|                                       	| Interactions:  same as level 1 expect that butterflyy  is flying around                                                      	|
+| Perform a task successfully              	| Animations: same as level 1                                         	|
+|                                       	| Voice overs:    same as level 1                                                       	|
+|                                       	| Sounds:         same as level 1                                                        	|
+|                                       	| Interactions: same as level 1                                                          	|
+|                                       	| Statistics:    same as level 1                                                       	|
+| Getting distracted or performing poorly: 	| Animations:  same as level 1                                                         	|
+|                                       	| Voice overs:    same as level 1                                                       	|
+|                                       	| Sounds:              same as level 1                                                   	|
+|                                       	| Interactions:       same as level 1                                                    	|
+|                                       	| Statistics:        same as level 1 and   Distracting time+1                                           	|
+| Level Ended                              |	                                                                                   |
+|   Win:                                     | Animations:   same as level 1                                                    	|
+|                                       	| Voice overs:     same as level 1                                                    	|
+|                                       	| Sounds:       same as level 1                                                          	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics:  same as level 1 |
+|   Lost:                                 | Animations: same as level 1                                                        	|
+|                                       	| Voice overs:   same as level 1                                                      	|
+|                                       	| Sounds:       same as level 1                                                          	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics: same as level 1                              |
 
-### Level 3
+## Level 3
 
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	| Animations:                                                            	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-| Perform a task successfully              	| Animations:                                                             	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Getting distracted or performing poorly: 	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
-| Level Ended                              	| Animations:                                                           	|
-|                                       	| Voice overs:                                                           	|
-|                                       	| Sounds:                                                               	|
-|                                       	| Interactions:                                                           	|
-|                                       	| Statistics:                                                           	|
+| Level Started                            	| Animations: same as level 2                                                          	|
+|                                       	| Voice overs:  same as level 2                                                          	|
+|                                       	| Sounds:    same as level 2                                                    	|
+|                                       	| Interactions: same as level 1 
+| Perform a task successfully              	| Animations: same as level 2                                                           	|
+|                                       	| Voice overs: same as level 2                                      	|
+|                                       	| Sounds:       same as level 2                                                  	|
+|                                       	| Interactions:  same as level 2                                                         	|
+|                                       	| Statistics:   same as level 2 but response time will be The average (throughout the whole session) between:Average time between finishing a task and starting the following task, throughout a session and Average time between average time from ball hit player and player response, throughout a session                                       |
+| Getting distracted or performing poorly: 	| Animations:    same as level 2                                                       	|
+|                                       	| Voice overs:   same as level 2                                                         	|
+|                                       	| Sounds:         same as level 2                                                       	|
+|                                       	| Interactions:   same as level 2                                                         	|
+|                                       	| Statistics:     same as level 2                                                       	|
+| Level Ended                              |	                                                                                   |
+|   Win:                                     | Animations:   same as level 1                                                    	|
+|                                       	| Voice overs:     same as level 1                                                    	|
+|                                       	| Sounds:      same as level 2                                                          	|
+|                                       	| Interactions: same as level 1                                               	|
+|                                       	| Statistics:  same as level 1 |
+|   Lost:                                 | Animations: same as level 1 -ball twords the player                                                       	|
+|                                       	| Voice overs:   same as level 1 and npc will ask the player to move before the ball hits him                                                 	|
+|                                       	| Sounds:      same as level 2                                                          	|
+|                                       	| Interactions: same as level 1 but also when the player hits a gift a ball comes out from the gift towards the player. 
+target ,the player to move before the ball hits him                                                       	|                                              	|
+|                                       	| Statistics: same as level 2                             |
