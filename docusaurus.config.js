@@ -31,12 +31,13 @@ module.exports = {
           to: 'ed-blog/', 
           label: 'Yuram Blog', 
           position: 'left'
-        }
-        // {
-        //   href: 'https://myvrapeutic.com/',
-        //   label: 'VRapeutic',
-        //   position: 'right',
-        // },
+        },
+        {
+          href: 'https://github.com/vrapeutic',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
         // {
         //   href: 'http://yuram.tech/',
         //   label: 'Yuram',
