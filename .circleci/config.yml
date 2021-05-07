@@ -21,6 +21,8 @@ jobs:
       - image: cimg/node:15.10.0
     steps:
       - checkout
+      - attach_workspace:
+          at: _site
       - run:
           name: Deploy Site
           command: |
@@ -28,8 +30,6 @@ jobs:
             git config --global user.name "${GIT_USERNAME}"
             echo "machine github.com login ${GIT_USERNAME} password ${GIT_TOKEN}" > ~/.netrc
             GIT_USER=${GIT_USERNAME} yarn deploy
-      - attach_workspace:
-          at: _site
 
 workflows:
   version: 2
