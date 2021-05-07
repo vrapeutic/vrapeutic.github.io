@@ -5,10 +5,15 @@ workflows:
   build:
     jobs:
       - build
+          filters:
+            ignore:
+              - master
       - deploy:
           filters:
             branches:
               only: main
+            ignore:
+              - master
           requires:
             - build
 
