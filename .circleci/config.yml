@@ -1,10 +1,10 @@
 version: 2.1
 
 jobs:
-  build_and_deploy:
+  build:
     docker:
       - image: cimg/node:15.10.0
-    steps:
+    setps:
       - checkout
       - run:
           name: Install dependencies
@@ -12,6 +12,15 @@ jobs:
       - run:
           name: Build Site
           command: npm run build
+      - persist_to_workspace:
+          root: _site
+          paths:
+            - ./*
+  deploy:
+    docker:
+      - image: cimg/node:15.10.0
+    steps:
+      - checkout
       - run:
           name: Deploy Site
           command: |
@@ -19,12 +28,17 @@ jobs:
             git config --global user.name "${GIT_USERNAME}"
             echo "machine github.com login ${GIT_USERNAME} password ${GIT_TOKEN}" > ~/.netrc
             GIT_USER=${GIT_USERNAME} yarn deploy
+      - attach_workspace:
+          at: _site
 
 workflows:
   version: 2
   build:
     jobs:
-      - build_and_deploy:
-        filters:
-          branches:
-            only: main
+      - build
+      - deploy:
+          filters:
+            branches:
+              only: main
+          requires:
+            - build
