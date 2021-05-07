@@ -4,16 +4,15 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
+      - build:
           filters:
-            ignore:
-              - master
+            branches:
+              ignore: master
       - deploy:
           filters:
             branches:
               only: main
-            ignore:
-              - master
+              ignore: master
           requires:
             - build
 
