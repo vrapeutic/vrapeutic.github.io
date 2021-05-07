@@ -25,16 +25,16 @@ jobs:
           name: Build Site
           command: npm run build
       - persist_to_workspace:
-          root: _site
+          root: .
           paths:
-            - ./*
+            - .
   deploy:
     docker:
       - image: cimg/node:15.10.0
     steps:
       - checkout
       - attach_workspace:
-          at: _site
+          at: .
       - run:
           name: Deploy Site
           command: |
