@@ -1,10 +1,22 @@
 version: 2.1
 
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
+      - deploy:
+          filters:
+            branches:
+              only: main
+          requires:
+            - build
+
 jobs:
   build:
     docker:
       - image: cimg/node:15.10.0
-    setps:
+    steps:
       - checkout
       - run:
           name: Install dependencies
@@ -30,15 +42,3 @@ jobs:
             git config --global user.name "${GIT_USERNAME}"
             echo "machine github.com login ${GIT_USERNAME} password ${GIT_TOKEN}" > ~/.netrc
             GIT_USER=${GIT_USERNAME} yarn deploy
-
-workflows:
-  version: 2
-  build:
-    jobs:
-      - build
-      - deploy:
-          filters:
-            branches:
-              only: main
-          requires:
-            - build
