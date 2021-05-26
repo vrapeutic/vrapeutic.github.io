@@ -6,45 +6,63 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 const features = [
   {
-    title: 'Immersive Environments',
+    title: (
+      <Translate>
+        Immersive Environments
+      </Translate>
+    ),
     imageUrl: 'img/undraw_augmented_reality_heuy.svg',
     description: (
-      <>
+      <Translate id='feat1.title'>
         VRapeutic builds immersive VR experiences, with a major focus
         to instill essential life skills to children with learning difficulties 
         and developmental disorders
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Tracking Performance',
+    title: (
+      <Translate>
+        Tracking Performance
+      </Translate>
+    ),
     imageUrl: 'img/undraw_visual_data_b1wx.svg',
     description: (
-      <>
+      <Translate id='feat2.title'>
         VRapeutic helps therapists and doctors with statistics and performance data
         provided within a cloud-based platform
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'Rich Up-to-date Blog',
+    title: (
+      <Translate>
+        Rich Up-to-date Blog
+      </Translate>
+    ),
     imageUrl: 'img/undraw_online_articles_79ff.svg',
     description: (
-      <>
+      <Translate id='feat3.title'>
         VRapeutic keeps its blog's content up-to-date with its latest research in AI, education, and therapy
-      </>
+      </Translate>
     ),
   },
   {
-    title: 'AI & Biosensors',
+    title: (
+      <Translate>
+        AI &amp; Biosensors
+      </Translate>
+    ),
     imageUrl: 'img/undraw_programmer_imem.svg',
     description: (
-      <>
+      <Translate id='feat4.title'>
         VRapeutic employs cutting edge technologies in Artificial Intelligence and biosensors technology to
         its therapeutic solutions
-      </>
+      </Translate>
     ),
   },
 ];
@@ -101,22 +119,30 @@ const team = [
   },
 ]
 
-function TeamMember({thumbnail, title, name}) {
-  const imageUrl = useBaseUrl(thumbnail);
-  return (
-    <div className={clsx('col col--4')}>
-      {thumbnail && (
-        <div className="text--center">
-          <img className={styles.teamMemberImg} src={imageUrl} alt={name} />
-          <div className="avatar__intro padding-top--sm">
-            <h4 className="avatar__name">{name}</h4>
-            <small className="avatar__subtitle">{title}</small>
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
+// function TeamMember({thumbnail, title, name}) {
+//   const imageUrl = useBaseUrl(thumbnail);
+//   return (
+//     <div className={clsx('col col--4')}>
+//       {thumbnail && (
+//         <div className="text--center">
+//           <img className={styles.teamMemberImg} src={imageUrl} alt={name} />
+//           <div className="avatar__intro padding-top--sm">
+//             <h4 className="avatar__name">
+//               <Translate>
+//                 {name}
+//               </Translate>
+//             </h4>
+//             <small className="avatar__subtitle">
+//               <Translate>
+//                 {title}
+//               </Translate>
+//             </small>
+//           </div>
+//         </div>
+//       )}
+//     </div>
+//   )
+// }
 
 function Sponsor({imageUrl, title}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -132,8 +158,13 @@ function Sponsor({imageUrl, title}) {
   )
 }
 
-function Feature({imageUrl, title, description}) {
+function Feature({id, imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
+  // features.map((props, idx) => {
+  //   console.log(props)
+  //   console.log(idx)
+  // })
+  console.log(id)
   return (
     <div className={clsx('col col--6', styles.feature)}>
       {imgUrl && (
@@ -141,8 +172,12 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3>
+        {title}
+      </h3>
+      <p>
+        {description}
+      </p>
     </div>
   );
 }
@@ -166,7 +201,11 @@ function Home() {
                 <br></br>
                 <b>{siteConfig.title}</b>
                 <br></br>
-                <small>{siteConfig.tagline}</small>
+                <small>
+                  <Translate id="homePage.tagline">
+                    Empowering Neurodiversity, One Child At A Time
+                  </Translate>
+                </small>
                 <br></br>
                 <div className={styles.buttons}>
                   <Link
@@ -174,7 +213,11 @@ function Home() {
                       'button button--primary button--lg',
                     )}
                     to={useBaseUrl('docs/')}>
-                    <span className={styles.getStartedBtn}>Explore Docs</span>
+                    <span className={styles.getStartedBtn}>
+                      <Translate>
+                        Explore Docs
+                      </Translate>
+                    </span>
                   </Link>
                 </div>
               </span>
