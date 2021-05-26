@@ -1,0 +1,32 @@
+{
+  "feat1.title": {
+    "message": "VRapeutic crée des expériences de réalité virtuelle immersives, avec un objectif majeur pour inculquer des compétences de vie essentielles aux enfants ayant des difficultés d'apprentissage et des troubles du développement"
+  },
+  "feat2.title": {
+    "message": "VRapeutic aide les thérapeutes et les médecins avec des statistiques et des données de performance fournies dans une plate-forme cloud"
+  },
+  "feat3.title": {
+    "message": "VRapeutic maintient le contenu de son blog à jour avec ses dernières recherches en IA, en éducation et en thérapie"
+  },
+  "feat4.title": {
+    "message": "VRapeutic utilise des technologies de pointe en matière d'intelligence artificielle et de biocapteurs pour ses solutions thérapeutiques"
+  },
+  "homePage.tagline": {
+    "message": "Autonomiser la neurodiversité, Un enfant à la fois."
+  },
+  "Explore Docs": {
+    "message": "Explorer la Documentation"
+  },
+  "Immersive Environments": {
+    "message": "Environnements Immersifs"
+  },
+  "Tracking Performance": {
+    "message": "Suivi de la Performance"
+  },
+  "Rich Up-to-date Blog": {
+    "message": "Blog Riche à Jour"
+  },
+  "AI & Biosensors": {
+    "message": "IA et Biocapteurs"
+  }
+}

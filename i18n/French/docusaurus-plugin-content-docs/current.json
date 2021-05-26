@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Suivant",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.WebXR": {
+    "message": "WebXR",
+    "description": "The label for category WebXR in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Therapeutic Modules' Library": {
+    "message": "Bibliothèque de Modules Thérapeutiques",
+    "description": "The label for category Therapeutic Modules' Library in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Ellie Tale": {
+    "message": "Ellie Tale",
+    "description": "The label for category Ellie Tale in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.GardenDo": {
+    "message": "GardenDo",
+    "description": "The label for category GardenDo in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Archeeko": {
+    "message": "Archeeko",
+    "description": "The label for category Archeeko in sidebar someSidebar"
+  },
+  "sidebar.someSidebar.category.Rodja": {
+    "message": "Rodja",
+    "description": "The label for category Rodja in sidebar someSidebar"
+  }
+}
