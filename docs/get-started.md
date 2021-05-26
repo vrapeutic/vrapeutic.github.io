@@ -83,7 +83,7 @@ export class TestComponent extends ComponentWrapper<TestComponentSchema> {
 }
 ```
 
-- Make sure you register you component in the same file. Add this line at the end of the TS file
+- Make sure you register your component in the same file. Add this line at the end of the TS file
 
 ```typescript title="src/components/test_component.ts"
 new TestComponent().register();
