@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "VRapeutic",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.AI Blog": {
+    "message": "AI Blog",
+    "description": "Navbar item with label AI Blog"
+  },
+  "item.label.Yuram Blog": {
+    "message": "Yuram Blog",
+    "description": "Navbar item with label Yuram Blog"
+  }
+}

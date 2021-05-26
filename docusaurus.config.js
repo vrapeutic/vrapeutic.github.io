@@ -8,6 +8,13 @@ module.exports = {
   favicon: 'img/vrapeutic-logo.ico',
   organizationName: 'vrapeutic', // Usually your GitHub org/user name.
   projectName: 'vrapeutic.github.io', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'English',
+    locales: [
+      'English',
+      'French'
+    ],
+  },
   themeConfig: {
     navbar: {
       title: 'VRapeutic',
@@ -31,6 +38,10 @@ module.exports = {
           to: 'ed-blog/', 
           label: 'Yuram Blog', 
           position: 'left'
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/vrapeutic',
