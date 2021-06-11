@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{79:function(o){o.exports=JSON.parse('{"allTagsPath":"/French/blog/tags","slug":"pose-estimation","name":"pose-estimation","count":2,"permalink":"/French/blog/tags/pose-estimation"}')}}]);

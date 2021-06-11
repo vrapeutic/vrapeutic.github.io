@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{72:function(a){a.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"brain-explained","name":"brain-explained","count":1,"permalink":"/ed-blog/tags/brain-explained"}')}}]);

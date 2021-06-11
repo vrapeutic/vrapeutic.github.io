@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://vrapeutic.github.io/ed-blog</id>
+    <title>VRapeutic Blog</title>
+    <updated>2021-03-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://vrapeutic.github.io/ed-blog"/>
+    <subtitle>VRapeutic Blog</subtitle>
+    <icon>https://vrapeutic.github.io/img/vrapeutic-logo.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Autism Spectrum Disorder]]></title>
+        <id>autism-spectrum-disorder</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/autism-spectrum-disorder"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neuropsychology - Evaluating Learning Disability]]></title>
+        <id>neuropsychology-evaluating-learning-disability</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/neuropsychology-evaluating-learning-disability"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Assistive Technology in Education - Leveling the Playing Field for Students with Learning Disabilities]]></title>
+        <id>assistive-tech-1</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/assistive-tech-1"/>
+        <updated>2021-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Assessment - A Different Perspective]]></title>
+        <id>assessment-a-different-perspective</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/assessment-a-different-perspective"/>
+        <updated>2021-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So What Kind of Assistive Technology Tools are out there?]]></title>
+        <id>assistive-tech-2</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/assistive-tech-2"/>
+        <updated>2021-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Growing Pains - The Brain Early Development Explained]]></title>
+        <id>growing-pain</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/growing-pain"/>
+        <updated>2021-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Classrooms Without Borders - Education Technology Revolutionizing The Face of Education]]></title>
+        <id>classrooms-without-borders</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/classrooms-without-borders"/>
+        <updated>2021-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Standardized Testing - What’s in a Name?]]></title>
+        <id>standarized-testing</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/standarized-testing"/>
+        <updated>2021-02-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning Difficulties - Rethinking What We Know]]></title>
+        <id>learning-difficulties</id>
+        <link href="https://vrapeutic.github.io/French/ed-blog/learning-difficulties"/>
+        <updated>2019-07-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+</feed>

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{109:function(s){s.exports=JSON.parse('{"allTagsPath":"/French/ed-blog/tags","slug":"assessment","name":"assessment","count":1,"permalink":"/French/ed-blog/tags/assessment"}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{81:function(o){o.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"neuropsychology","name":"neuropsychology","count":1,"permalink":"/ed-blog/tags/neuropsychology"}')}}]);

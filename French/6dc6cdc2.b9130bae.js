@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{97:function(e){e.exports=JSON.parse('{"allTagsPath":"/French/ed-blog/tags","slug":"research","name":"research","count":9,"permalink":"/French/ed-blog/tags/research"}')}}]);

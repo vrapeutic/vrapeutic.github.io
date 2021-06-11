@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>VRapeutic Blog</title>
+        <link>https://vrapeutic.github.io/blog</link>
+        <description>VRapeutic Blog</description>
+        <lastBuildDate>Wed, 17 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[BlazePose for Full Body Keypoints Extraction.]]></title>
+            <link>https://vrapeutic.github.io/French/blog/blazepose-part-2</link>
+            <guid>blazepose-part-2</guid>
+            <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A technical guide that shows the exact steps you need to do.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[BlazePose, the Best Model for Body keypoints Extraction [Revolutionary]]]></title>
+            <link>https://vrapeutic.github.io/French/blog/blazepose-part-1</link>
+            <guid>blazepose-part-1</guid>
+            <pubDate>Sun, 17 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A comprehensive technical guide on how to extract human body keypoints using BlazePose for Human Pose Estimation.]]></description>
+        </item>
+    </channel>
+</rss>

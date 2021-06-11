@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[41],{111:function(o){o.exports=JSON.parse('{"title":"All our posts","items":[{"title":"BlazePose for Full Body Keypoints Extraction.","permalink":"/blog/blazepose-part-2"},{"title":"BlazePose, the Best Model for Body keypoints Extraction [Revolutionary]","permalink":"/blog/blazepose-part-1"}]}')}}]);

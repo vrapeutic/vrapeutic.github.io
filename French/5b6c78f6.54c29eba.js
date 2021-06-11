@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{91:function(a){a.exports=JSON.parse('{"allTagsPath":"/French/blog/tags","slug":"virtual-reality","name":"virtual reality","count":1,"permalink":"/French/blog/tags/virtual-reality"}')}}]);

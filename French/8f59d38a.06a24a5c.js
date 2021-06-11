@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[37],{107:function(o){o.exports=JSON.parse('{"allTagsPath":"/French/blog/tags","slug":"computer-vision","name":"computer-vision","count":2,"permalink":"/French/blog/tags/computer-vision"}')}}]);
