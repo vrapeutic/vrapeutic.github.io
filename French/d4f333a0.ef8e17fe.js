@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[59],{127:function(n){n.exports=JSON.parse('{"allTagsPath":"/French/ed-blog/tags","slug":"learning-disability","name":"learning-disability","count":2,"permalink":"/French/ed-blog/tags/learning-disability"}')}}]);
