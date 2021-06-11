@@ -2,11 +2,3 @@ node_modules
 build
 .docusaurus
 backup
-i18n/French/docusaurus-plugin-content-docs/current/archeeko.md
-i18n/French/docusaurus-plugin-content-docs/current/ellie-tale.md
-i18n/French/docusaurus-plugin-content-docs/current/garden-do.md
-i18n/French/docusaurus-plugin-content-docs/current/rodja.md
-docs/archeeko.md
-docs/ellie-tale.md
-docs/garden-do.md
-docs/rodja.md
