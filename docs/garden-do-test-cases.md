@@ -34,15 +34,15 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:                None                                               	|
 |                                       	| Interactions:     the player hold the bucket                                                    	|
 | Perform a task successfully              	| Animations: The flower starts growing                                                            	|
-|                                       	| Voice overs:   NPC says bravo you've planted a beautiful  flower                                                       	|
+|                                       	| Voice overs:   NPC says good job you've planted a beautiful  flower                                                       	|
 |                                       	| Sounds:       None                                                        	|
 |                                       	| Interactions:  Hold the bucket and put in front of the the flowerwhile looking at the flower                                                         	|
-|                                       	| Statistics:  Statistics: score +1 ,task counter +1 ,response time Average time between finishing a task (watering a flower) and starting the following task (watering the next flower), throughout a session.                                                         	|
+|                                       	|                                                        	|
 | Getting distracted or performing poorly: 	| Animations:   The flower stops growing and gets smaller                                                        	|
 |                                       	| Voice overs:       None                                            	|
 |                                       	| Sounds:               None                                                	|
 |                                       	| Interactions:     None                                                      	|
-|                                       	| Statistics:         Statistics: duration (not count) of interruptions+1                                                  	|
+                                          	|
 | Level Ended                              	| Animations:   NPC waves his hand as he thanking the player                                               	|
 |                                       	| Voice overs:   NPC says thank you for helping me make the garden looks amazing                                                        	|
 |                                       	| Sounds:              None                                                 	|
@@ -61,7 +61,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:          same as level 1                                                 	|
 |                                       	| Sounds:                    None                                           	|
 |                                       	| Interactions:             same as level 1                                              	|
-|                                       	| Statistics:               same as level 1                                            	|
+
 | Getting distracted or performing poorly: 	| Animations:              same as level 1                                             	|
 |                                       	| Voice overs:                same as level 1                                           	|
 |                                       	| Sounds:                     None                                          	|
@@ -71,7 +71,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:                  same as level 1                                         	|
 |                                       	| Sounds:                       None                                        	|
 |                                       	| Interactions:                None                                           	|
-|                                       	| Statistics:                   same as level 1                                        	|
+
 
 ### Level 3
 
@@ -90,9 +90,9 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:         same as level 1                                                    	|
 |                                       	| Sounds:              None                                                 	|
 |                                       	| Interactions:          same as level 1                                                   	|
-|                                       	| Statistics:    same as level 1  with TFD(time following the distractor added)                                                       	|
+                                               	|
 | Level Ended                              	| Animations:     same as level 1                                                        	|
 |                                       	| Voice overs:      same as level 1                                                       	|
 |                                       	| Sounds:            None                                                   	|
 |                                       	| Interactions:      None                                                     	|
-|                                       	| Statistics:        same as level 1                                                     	|
+
