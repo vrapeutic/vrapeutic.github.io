@@ -125,6 +125,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/yahya-alaa/"><img src="https://avatars.githubusercontent.com/u/31636106?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yahya Alaa</b></sub></a><br /><a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=YahyaAlaaMassoud" title="Code">💻</a> <a href="#content-YahyaAlaaMassoud" title="Content">🖋</a> <a href="#design-YahyaAlaaMassoud" title="Design">🎨</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=YahyaAlaaMassoud" title="Documentation">📖</a> <a href="#ideas-YahyaAlaaMassoud" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-YahyaAlaaMassoud" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-YahyaAlaaMassoud" title="Maintenance">🚧</a> <a href="#projectManagement-YahyaAlaaMassoud" title="Project Management">📆</a> <a href="#translation-YahyaAlaaMassoud" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://jwf.io/"><img src="https://avatars.githubusercontent.com/u/4721034?v=4?s=100" width="100px;" alt=""/><br /><sub><b>J.W.F. (he/him)</b></sub></a><br /><a href="#question-jwflory" title="Answering Questions">💬</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/issues?q=author%3Ajwflory" title="Bug reports">🐛</a> <a href="#ideas-jwflory" title="Ideas, Planning, & Feedback">🤔</a> <a href="#tool-jwflory" title="Tools">🔧</a></td>
   </tr>
 </table>
 
