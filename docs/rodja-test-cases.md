@@ -15,8 +15,8 @@ sidebar_label: Test Cases
 |                           |                   | Level 3:   The main objective is the same as Level 2 . However the jowelery itself will be moving        	        |
 |           Enviroment selection                |                   | Snow        	        |
 |                          |                   | Desert        	        |
-|                           |                   | Garden   (Not implemented)     	        |
-|                         |                   | Space    (Not implemented)    	        |
+|                           |                   | Garden   	        |
+|                         |                   | Space       	        |
 |           Road selection                |                   | 5 different roads with 5 different shapes  	        |
 | Timer Selection       	|               	|  Open: There's no timer at the game                         	|
 
@@ -40,18 +40,18 @@ The expected behaviours can be one of the following:
 | Perform a task successfully              	| Animations:   The NPC moves towards the jowelery the player pointed to                                                          	|
 |                                       	| Voice overs:  None                                                         	|
 |                                       	| Sounds:        Collecting jowelery sound                                                       	|
-|                                       	| Interactions:   The jowelery disapeares and the next now shows up                                                        	|
-|                                       	| Statistics:                    Statistics: score +1 ,task counter +1 ,response time Average time between finishing a task (collecting a jowelery) and starting the following task (collecting the next jowelery), throughout a session.                                       	|
+|                                       	| Interactions:   The jowelery disappeares and the next now shows up                                                        	|
+|                                       	|                                	|
 | Getting distracted or performing poorly: 	| Animations:      None                                                     	|
 |                                       	| Voice overs:       None                                                    	|
 |                                       	| Sounds:            None                                                   	|
 |                                       	| Interactions:       None                                                    	|
-|                                       	| Statistics:           duration (not count) of interruptions+1                                                 	|
+|                                       	|                                         	|
 | Level Ended                              	| Animations:    when collected all the  joweleries the treasure box opens at the end                                                     	|
 |                                       	| Voice overs:      the NPC cheers (Bravo)                                                     	|
 |                                       	| Sounds:     None                                                          	|
 |                                       	| Interactions:   None                                                        	|
-|                                       	| Statistics:     final Actual Attention Span and session time                                                       	|
+|                                       	|                                                     	|
 
 ### Level 2
 
@@ -65,17 +65,17 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:              same as level 1                                             	|
 |                                       	| Sounds:                   same as level 1                                            	|
 |                                       	| Interactions:             same as level 1                                              	|
-|                                       	| Statistics:                   same as level 1                                        	|
+|                                       	|                                     	|
 | Getting distracted or performing poorly: 	| Animations:      same as level 1                                                     	|
 |                                       	| Voice overs:       same as level 1                                                    	|
 |                                       	| Sounds:                 None                                              	|
 |                                       	| Interactions:              same as level 1                                             	|
-|                                       	| Statistics:        same as level 1 and Distracting time+1                                                   	|
+|                                       	|                                            	|
 | Level Ended                              	| Animations:         same as level 1                                                    	|
 |                                       	| Voice overs:             same as level 1                                                	|
 |                                       	| Sounds:                 none                                              	|
 |                                       	| Interactions:             same as level 1                                                	|
-|                                       	| Statistics:               same as level 1                                              	|
+|                                       	|                                         	|
 
 ### Level 3
 
@@ -89,14 +89,14 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:             same as level 1                                                	|
 |                                       	| Sounds:                    same as level 1                                             	|
 |                                       	| Interactions:              same as level 1                                               	|
-|                                       	| Statistics:               same as level 1  and TFD (time following distractor)                                          	|
+|                                       	|                                          	|
 | Getting distracted or performing poorly: 	| Animations:              same as level 1                                             	|
 |                                       	| Voice overs:                same as level 1                                           	|
 |                                       	| Sounds:                      None                                         	|
 |                                       	| Interactions:                same as level 1                                           	|
-|                                       	| Statistics:                 same as level 2                                          	|
+|                                       	|                                      	|
 | Level Ended                              	| Animations:                 same as level 1                                           	|
 |                                       	| Voice overs:                   same as level 1                                         	|
 |                                       	| Sounds:                          None                                     	|
 |                                       	| Interactions:                    None                                       	|
-|                                       	| Statistics:                     same as level 1                                        	|
+|                                       	|                                	|
