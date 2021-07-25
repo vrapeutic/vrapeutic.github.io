@@ -22,11 +22,10 @@ can be placed in.
 ## Player
 
 The player plays from a first person perspective. The player character is
-not seen on the screen. Instead the player controls a circle pointer at the
-center of his/her eyesight that they use to point at the jewels to collect
+not seen on the screen. Instead the player controls a laser pointer in his
+hand that they use to point at the jewels to collect
 them.
-The player controls the pointer only by moving their head around as the
-pointer should express their eyes’ center’s direction.
+
 
 ## NPC
 
