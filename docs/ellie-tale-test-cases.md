@@ -45,7 +45,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:   Illy asks again                                                         	|
 |                                       	| Sounds:              None                                                 	|
 |                                       	| Interactions:If the player doesn’t follow illy for  3s, Illy asks again and moves in front of the player                                                        	|
-|                                       	| Statistics: duration (not count) of interruptions+1                                                        	|
+|                                       	|                                                       	|
 | Level Ended                              |	                                                                                   |
 |   Win:                                     | Animations:   happy Illy dancing animation                                                         	|
 |                                       	| Voice overs:     Illy thanks the player                                                      	|
@@ -56,7 +56,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:   Illy tells the player that they’re too slow and Uncle Noah must leave now.                                                      	|
 |                                       	| Sounds:      None                                                         	|
 |                                       	| Interactions: Back to menu                                               	|
-|                                       	| Statistics:  final Actual Attention Span and session time |
+|                                       	|  |
 
 ### Level 2
 
@@ -75,7 +75,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:    same as level 1                                                       	|
 |                                       	| Sounds:             None                                                  	|
 |                                       	| Interactions:       same as level 1                                                    	|
-|                                       	| Statistics:        same as level 1 and   Distracting time+1                                           	|
+|                                       	|                                          	|
 | Level Ended                              |	                                                                                   |
 |   Win:                                     | Animations:   same as level 1                                                    	|
 |                                       	| Voice overs:     same as level 1                                                    	|
@@ -86,7 +86,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:   same as level 1                                                      	|
 |                                       	| Sounds:      None                                                         	|
 |                                       	| Interactions: same as level 1                                               	|
-|                                       	| Statistics: same as level 1                              |
+|                                       	|                           |
 
 ## Level 3
 
@@ -100,7 +100,7 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs: same as level 2                                      	|
 |                                       	| Sounds:       None                                                 	|
 |                                       	| Interactions:  same as level 2                                                         	|
-|                                       	| Statistics:   same as level 2 but response time will be The average (throughout the whole session) between:Average time between finishing a task and starting the following task, throughout a session and Average time between average time from Noah hit box and player response, throughout a session                                       |
+|                                       	|                                       |
 | Getting distracted or performing poorly: 	| Animations:    same as level 2                                                       	|
 |                                       	| Voice overs:   same as level 2                                                         	|
 |                                       	| Sounds:         None                                                      	|
@@ -116,4 +116,4 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:   same as level 1                                                      	|
 |                                       	| Sounds:      None                                                         	|
 |                                       	| Interactions: same as level 1                                               	|
-|                                       	| Statistics: same as level 1                              |
+|                                       	|                         |
