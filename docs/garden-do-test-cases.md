@@ -34,20 +34,20 @@ The expected behaviours can be one of the following:
 |                                       	| Sounds:                None                                               	|
 |                                       	| Interactions:     the player hold the bucket                                                    	|
 | Perform a task successfully              	| Animations: The flower starts growing                                                            	|
-|                                       	| Voice overs:   NPC says good job you've planted a beautiful  flower                                                       	|
+|                                       	| Voice overs:   NPC says bravo you've planted a beautiful  flower                                                       	|
 |                                       	| Sounds:       None                                                        	|
 |                                       	| Interactions:  Hold the bucket and put in front of the the flowerwhile looking at the flower                                                         	|
-|                                       	|                                                        	|
+|                                       	|                                                   	|
 | Getting distracted or performing poorly: 	| Animations:   The flower stops growing and gets smaller                                                        	|
 |                                       	| Voice overs:       None                                            	|
 |                                       	| Sounds:               None                                                	|
 |                                       	| Interactions:     None                                                      	|
-                                          	|
+|                                       	|                                                 	|
 | Level Ended                              	| Animations:   NPC waves his hand as he thanking the player                                               	|
 |                                       	| Voice overs:   NPC says thank you for helping me make the garden looks amazing                                                        	|
 |                                       	| Sounds:              None                                                 	|
 |                                       	| Interactions:       None                                                    	|
-|                                       	| Statistics:           final Actual Attention Span and session time                                                	|
+|                                       	|                                         	|
 
 ### Level 2
 
@@ -61,17 +61,17 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:          same as level 1                                                 	|
 |                                       	| Sounds:                    None                                           	|
 |                                       	| Interactions:             same as level 1                                              	|
-
+|                                       	|                                          	|
 | Getting distracted or performing poorly: 	| Animations:              same as level 1                                             	|
 |                                       	| Voice overs:                same as level 1                                           	|
 |                                       	| Sounds:                     None                                          	|
 |                                       	| Interactions:               same as level 1                                            	|
-|                                       	| Statistics:                 same as level 1                                          	|
+|                                       	|                                	|
 | Level Ended                              	| Animations:                   same as level 1                                        	|
 |                                       	| Voice overs:                  same as level 1                                         	|
 |                                       	| Sounds:                       None                                        	|
 |                                       	| Interactions:                None                                           	|
-
+|                                       	|                                    	|
 
 ### Level 3
 
@@ -85,14 +85,14 @@ The expected behaviours can be one of the following:
 |                                       	| Voice overs:       same as level 1                                                      	|
 |                                       	| Sounds:                  none                                             	|
 |                                       	| Interactions:           same as level 1  but when the bird chooses the flower the player is watering it and lands on it the player will hav to touch the bird so it flies and can now continue watering.                                                	|
-|                                       	| Statistics:               same as level 1                                              	|
+|                                       	|                                           	|
 | Getting distracted or performing poorly: 	| Animations:    same as level 1                                                         	|
 |                                       	| Voice overs:         same as level 1                                                    	|
 |                                       	| Sounds:              None                                                 	|
 |                                       	| Interactions:          same as level 1                                                   	|
-                                               	|
+|                                       	|                                                      	|
 | Level Ended                              	| Animations:     same as level 1                                                        	|
 |                                       	| Voice overs:      same as level 1                                                       	|
 |                                       	| Sounds:            None                                                   	|
 |                                       	| Interactions:      None                                                     	|
-
+|                                       	|                                                  	|
