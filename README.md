@@ -129,6 +129,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/AlaaHesham1996"><img src="https://avatars.githubusercontent.com/u/46730861?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alaa Hesham </b></sub></a><br /><a href="#blog-AlaaHesham1996" title="Blogposts">📝</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=AlaaHesham1996" title="Code">💻</a> <a href="#content-AlaaHesham1996" title="Content">🖋</a> <a href="#research-AlaaHesham1996" title="Research">🔬</a></td>
     <td align="center"><a href="https://github.com/hadeergamal1"><img src="https://avatars.githubusercontent.com/u/52928785?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hadeergamal1</b></sub></a><br /><a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=hadeergamal1" title="Code">💻</a> <a href="#content-hadeergamal1" title="Content">🖋</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=hadeergamal1" title="Documentation">📖</a> <a href="#ideas-hadeergamal1" title="Ideas, Planning, & Feedback">🤔</a> <a href="#userTesting-hadeergamal1" title="User Testing">📓</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/AhmedAlassasy"><img src="https://avatars.githubusercontent.com/u/68190599?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AhmedAlassasy</b></sub></a><br /><a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=AhmedAlassasy" title="Code">💻</a> <a href="#content-AhmedAlassasy" title="Content">🖋</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=AhmedAlassasy" title="Documentation">📖</a> <a href="#ideas-AhmedAlassasy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#userTesting-AhmedAlassasy" title="User Testing">📓</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
