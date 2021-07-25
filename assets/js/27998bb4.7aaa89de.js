@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[3704],{1938:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"therapy","name":"therapy","count":6,"permalink":"/ed-blog/tags/therapy"}')}}]);

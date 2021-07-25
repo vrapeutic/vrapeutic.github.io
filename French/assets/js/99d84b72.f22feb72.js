@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[647],{9487:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/French/ed-blog/page/2","page":2,"postsPerPage":5,"totalPages":2,"totalCount":9,"previousPage":"/French/ed-blog","nextPage":null,"blogDescription":"Blog","blogTitle":"Yuram Educational Blog"}')}}]);

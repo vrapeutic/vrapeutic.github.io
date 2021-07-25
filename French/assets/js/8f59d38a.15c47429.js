@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[5225],{2171:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/French/blog/tags","slug":"computer-vision","name":"computer-vision","count":2,"permalink":"/French/blog/tags/computer-vision"}')}}]);

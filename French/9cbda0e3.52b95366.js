@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{115:function(s){s.exports=JSON.parse('{"allTagsPath":"/French/ed-blog/tags","slug":"assistive-tech","name":"assistive-tech","count":2,"permalink":"/French/ed-blog/tags/assistive-tech"}')}}]);

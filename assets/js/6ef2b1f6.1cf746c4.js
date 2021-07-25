@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[7986],{5948:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"assistive-tech","name":"assistive-tech","count":2,"permalink":"/ed-blog/tags/assistive-tech"}')}}]);

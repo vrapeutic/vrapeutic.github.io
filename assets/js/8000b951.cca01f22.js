@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[2282],{3731:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"pose-estimation","name":"pose-estimation","count":2,"permalink":"/blog/tags/pose-estimation"}')}}]);

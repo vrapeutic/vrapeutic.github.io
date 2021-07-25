@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[34],{104:function(e){e.exports=JSON.parse('{"permalink":"/French/ed-blog","page":1,"postsPerPage":5,"totalPages":2,"totalCount":9,"previousPage":null,"nextPage":"/French/ed-blog/page/2","blogDescription":"Blog","blogTitle":"Yuram Educational Blog"}')}}]);

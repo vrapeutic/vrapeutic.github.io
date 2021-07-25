@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[604],{7222:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"education","name":"education","count":1,"permalink":"/ed-blog/tags/education"}')}}]);

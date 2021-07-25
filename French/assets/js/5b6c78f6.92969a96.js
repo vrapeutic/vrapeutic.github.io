@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[1355],{3183:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/French/blog/tags","slug":"virtual-reality","name":"virtual reality","count":1,"permalink":"/French/blog/tags/virtual-reality"}')}}]);

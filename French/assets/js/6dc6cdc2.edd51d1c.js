@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[3547],{209:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/French/ed-blog/tags","slug":"research","name":"research","count":9,"permalink":"/French/ed-blog/tags/research"}')}}]);

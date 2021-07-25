@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[2749],{6143:function(u){"use strict";u.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"autisum","name":"autisum","count":1,"permalink":"/ed-blog/tags/autisum"}')}}]);

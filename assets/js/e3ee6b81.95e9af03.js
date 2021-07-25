@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[3330],{966:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"assessment","name":"assessment","count":1,"permalink":"/ed-blog/tags/assessment"}')}}]);

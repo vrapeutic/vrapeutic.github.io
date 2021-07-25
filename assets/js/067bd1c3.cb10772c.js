@@ -1,0 +1,1 @@
+(self.webpackChunkvrapeutic_github_io=self.webpackChunkvrapeutic_github_io||[]).push([[3983],{3453:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/ed-blog/tags","slug":"brain-explained","name":"brain-explained","count":1,"permalink":"/ed-blog/tags/brain-explained"}')}}]);

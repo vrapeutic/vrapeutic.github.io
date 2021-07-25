@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[67],{135:function(o){o.exports=JSON.parse('{"permalink":"/ed-blog/page/2","page":2,"postsPerPage":5,"totalPages":2,"totalCount":9,"previousPage":"/ed-blog","nextPage":null,"blogDescription":"Blog","blogTitle":"Yuram Educational Blog"}')}}]);
