@@ -12,6 +12,7 @@
     <br>
     <a href="https://github.com/vrapeutic"><img src="https://img.shields.io/github/stars/vrapeutic?affiliations=OWNER%2CCOLLABORATOR%2CORGANIZATION_MEMBER&style=social"></a>
     <a href="https://twitter.com/myvrapeutic"><img src="https://img.shields.io/twitter/follow/myvrapeutic?style=social"/></a>
+    <a><img src="https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square"/></a>
 </p>
 
 ## Installation 🖥
@@ -113,3 +114,23 @@ git push origin <branch-name>
 - If you want to help us out, you can start a discussion on the issue
 - Make your issue as descriptive as possible, and include as much details as you can
 - We encourage you to attach images, screenshots, or even use Emjoin to make your issue more visual
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/yahya-alaa/"><img src="https://avatars.githubusercontent.com/u/31636106?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yahya Alaa</b></sub></a><br /><a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=YahyaAlaaMassoud" title="Code">💻</a> <a href="#content-YahyaAlaaMassoud" title="Content">🖋</a> <a href="#design-YahyaAlaaMassoud" title="Design">🎨</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=YahyaAlaaMassoud" title="Documentation">📖</a> <a href="#ideas-YahyaAlaaMassoud" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-YahyaAlaaMassoud" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-YahyaAlaaMassoud" title="Maintenance">🚧</a> <a href="#projectManagement-YahyaAlaaMassoud" title="Project Management">📆</a> <a href="#translation-YahyaAlaaMassoud" title="Translation">🌍</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
