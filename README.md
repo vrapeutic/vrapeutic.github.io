@@ -131,6 +131,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/AhmedAlassasy"><img src="https://avatars.githubusercontent.com/u/68190599?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AhmedAlassasy</b></sub></a><br /><a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=AhmedAlassasy" title="Code">💻</a> <a href="#content-AhmedAlassasy" title="Content">🖋</a> <a href="https://github.com/vrapeutic/vrapeutic.github.io/commits?author=AhmedAlassasy" title="Documentation">📖</a> <a href="#ideas-AhmedAlassasy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#userTesting-AhmedAlassasy" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://github.com/alkabbany"><img src="https://avatars.githubusercontent.com/u/48055184?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ahmad Al-Kabbany</b></sub></a><br /><a href="#business-alkabbany" title="Business development">💼</a> <a href="#content-alkabbany" title="Content">🖋</a> <a href="#ideas-alkabbany" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-alkabbany" title="Mentoring">🧑‍🏫</a> <a href="#projectManagement-alkabbany" title="Project Management">📆</a></td>
   </tr>
 </table>
 

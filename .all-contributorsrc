@@ -76,6 +76,19 @@
         "ideas",
         "userTesting"
       ]
+    },
+    {
+      "login": "alkabbany",
+      "name": "Ahmad Al-Kabbany",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48055184?v=4",
+      "profile": "https://github.com/alkabbany",
+      "contributions": [
+        "business",
+        "content",
+        "ideas",
+        "mentoring",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 4
