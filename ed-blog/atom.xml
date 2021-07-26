@@ -8,13 +8,6 @@
     <subtitle>VRapeutic Blog</subtitle>
     <icon>https://vrapeutic.github.io/img/vrapeutic-logo.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Autism Spectrum Disorder]]></title>
-        <id>autism-spectrum-disorder</id>
-        <link href="https://vrapeutic.github.io/ed-blog/autism-spectrum-disorder"/>
-        <updated>2021-03-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Neuropsychology - Evaluating Learning Disability]]></title>
         <id>neuropsychology-evaluating-learning-disability</id>
         <link href="https://vrapeutic.github.io/ed-blog/neuropsychology-evaluating-learning-disability"/>
@@ -22,10 +15,10 @@
         <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Assistive Technology in Education - Leveling the Playing Field for Students with Learning Disabilities]]></title>
-        <id>assistive-tech-1</id>
-        <link href="https://vrapeutic.github.io/ed-blog/assistive-tech-1"/>
-        <updated>2021-02-09T00:00:00.000Z</updated>
+        <title type="html"><![CDATA[Autism Spectrum Disorder]]></title>
+        <id>autism-spectrum-disorder</id>
+        <link href="https://vrapeutic.github.io/ed-blog/autism-spectrum-disorder"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
     </entry>
     <entry>
@@ -39,6 +32,13 @@
         <title type="html"><![CDATA[So What Kind of Assistive Technology Tools are out there?]]></title>
         <id>assistive-tech-2</id>
         <link href="https://vrapeutic.github.io/ed-blog/assistive-tech-2"/>
+        <updated>2021-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Assistive Technology in Education - Leveling the Playing Field for Students with Learning Disabilities]]></title>
+        <id>assistive-tech-1</id>
+        <link href="https://vrapeutic.github.io/ed-blog/assistive-tech-1"/>
         <updated>2021-02-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[You can check out the Original Article here, on Yuram's website.]]></summary>
     </entry>
