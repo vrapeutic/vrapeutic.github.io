@@ -8,7 +8,7 @@ sidebar_label: Test Cases
 
 | Session Parameter     	| Default Value 	|          Expected          	|
 |-----------------------	|:-------------:	|:--------------------------:	|
-|   | Timer Selection       	|                   	| 30: The player must shoot at all targets in less than 30Sec                         	|
+|   Timer Selection       |                   	| 30: The player must shoot at all targets in less than 30Sec                         	|
 |                         |                     | 60: The player must shoot at all targets in less than 60Sec       	        |
 |                         |                     | 90:The player must shoot at all targets in less than 90Sec            	            |
 |                         |        Open         | Open: There's no timer at the game              	        |  	|            	|       
