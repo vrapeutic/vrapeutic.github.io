@@ -4,16 +4,16 @@ title: Ellie Tale | VR Module Description
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out!](https://vrapeutic.github.io/EllieTale-WebXR/)
+## [Put on your VR Headset & Try it out! 🚀](https://vrapeutic.github.io/EllieTale-WebXR/)
 
-## [Check Ellie Tale's GitHub Repository](https://github.com/vrapeutic/Ellie-Tale)
+## [Check Ellie Tale's GitHub Repository 🏃](https://github.com/vrapeutic/Ellie-Tale)
 
-## Description
+## Description 📝
 
 A gamified **Virtual Reality** therapeutic application that addresses attention skills on various levels. The gameplay consists of a visual target tracking exercise that is designed to address and measure the various variables of attention.
 ​
 
-## Story
+## Story 🎙
 
 **Uncle Noah** is a nice old man, living by himself in the neighborhood. Since he’s living alone, he usually needs help in his everyday activities. He does fishing, farming, growing fruits, and writes books to earn a living.
 ​

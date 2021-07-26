@@ -4,17 +4,17 @@ title: Archeeko | VR Module Description
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out!](https://vrapeutic.github.io/Archeeko-WebXR/)
+## [Put on your VR Headset & Try it out! 🚀](https://vrapeutic.github.io/Archeeko-WebXR/)
 
-## [Check Archeeko's GitHub Repository](https://github.com/vrapeutic/Archeeko-WebXR)
+## [Check Archeeko's GitHub Repository 🏃](https://github.com/vrapeutic/Archeeko-WebXR)
 
-## Description
+## Description 📝
 
 An archery exercise that is designed to address and measure the various variables of attention.
 It consists of 3 levels with progressing difficulty, taking place in an immersive environment.
 ​
 
-## Story
+## Story 🎙
 
 The module takes place in a forest with an empty space that has a big fir tree in front of the player which contains the targets that the player has to shoot at.
 

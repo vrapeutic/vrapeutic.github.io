@@ -4,17 +4,18 @@ title: Rodja | VR Module Description
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out!](https://rodja-webxr.firebaseapp.com) 
+## [Put on your VR Headset & Try it out! 🚀 ](https://rodja-webxr.firebaseapp.com)
 
-## [Check Rodja's GitHub Repository](https://github.com/vrapeutic/Rodja-webXR)
+## [Check Rodja's GitHub Repository 🏃 ](https://github.com/vrapeutic/Rodja-webXR)
 
-## Description
- 
-Rodja is a  module in which the player sees jewels on a road
+## Description 📝
+
+Rodja is a module in which the player sees jewels on a road
 around them and tries to collects jewels on it in front of them as fast as they
-could while avoiding distractions. 
+could while avoiding distractions.
 
-## Story
+## Story 🎙
+
 The gameplay occurs on a track shaped in different shapes and cycling
 around the player. There are multiple environments that the player and the track
 can be placed in.
@@ -26,12 +27,11 @@ not seen on the screen. Instead the player controls a laser pointer in his
 hand that they use to point at the jewels to collect
 them.
 
-
 ## NPC
 
 An NPC plays along the player to encourage them and tell them the rules
 of the game.
-The NPC has two options: either a boy or a girl. 
+The NPC has two options: either a boy or a girl.
 
 ## Goals
 
