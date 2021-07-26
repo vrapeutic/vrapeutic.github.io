@@ -1,19 +1,19 @@
 ---
 id: garden-do-vr-module-description
-title: GardenDo | VR Module Description
+title: GardenDo | Description du module de réalité virtuelle
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out! 🚀](https://gardendo-webxr.web.app/)
+## [Mettez votre casque VR et commencez à interagir! 🚀](https://gardendo-webxr.web.app/)
 
-## [Check GardenDo's GitHub Repository 🏃](https://github.com/vrapeutic/GardenDoWebXR)
+## [Vérifiez le référentiel GitHub de GardenDo 🏃](https://github.com/vrapeutic/GardenDoWebXR)
 
-## Description 📝
-
-​
-A gamified **Virtual Reality** plant watering exercise that is designed to address and measure the various variables of attention. that is designed to address and measure the various variables of attention.
-
-## Story 🎙
+## La description 📝
 
 ​
-**Reem**/**Hussien**/**Liza**/**Rich** and the player will be watering plants today! , the player must water each flower and keep watering it until it fully grows and blooms! Each flower will look different, so watering each one will unleash a new character.
+Un exercice ludique d'arrosage des plantes de **Réalité Virtuelle** conçu pour traiter et mesurer les différentes variables de l'attention. qui est conçu pour traiter et mesurer les diverses variables de l'attention.
+
+## Récit 🎙
+
+​
+**Reem**/**Hussien**/**Liza**/**Rich** et le joueur arrosera les plantes aujourd'hui ! , le joueur doit arroser chaque fleur et continuer à l'arroser jusqu'à ce qu'elle pousse et fleurisse complètement ! Chaque fleur aura un aspect différent, donc arroser chacune d'elles libérera un nouveau personnage.
