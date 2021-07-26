@@ -1,6 +1,6 @@
 ---
 id: archeeko-vr-module-description
-title: Archeeko | VR Module Description
+title: Archeeko | Description du module de réalité virtuelle
 sidebar_label: VR Module
 ---
 
