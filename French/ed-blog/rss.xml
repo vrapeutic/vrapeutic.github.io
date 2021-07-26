@@ -8,13 +8,6 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Neuropsychology - Evaluating Learning Disability]]></title>
-            <link>https://vrapeutic.github.io/French/ed-blog/neuropsychology-evaluating-learning-disability</link>
-            <guid>neuropsychology-evaluating-learning-disability</guid>
-            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
-        </item>
-        <item>
             <title><![CDATA[Autism Spectrum Disorder]]></title>
             <link>https://vrapeutic.github.io/French/ed-blog/autism-spectrum-disorder</link>
             <guid>autism-spectrum-disorder</guid>
@@ -22,16 +15,23 @@
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
         <item>
-            <title><![CDATA[Assessment - A Different Perspective]]></title>
-            <link>https://vrapeutic.github.io/French/ed-blog/assessment-a-different-perspective</link>
-            <guid>assessment-a-different-perspective</guid>
-            <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+            <title><![CDATA[Neuropsychology - Evaluating Learning Disability]]></title>
+            <link>https://vrapeutic.github.io/French/ed-blog/neuropsychology-evaluating-learning-disability</link>
+            <guid>neuropsychology-evaluating-learning-disability</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
         <item>
             <title><![CDATA[Assistive Technology in Education - Leveling the Playing Field for Students with Learning Disabilities]]></title>
             <link>https://vrapeutic.github.io/French/ed-blog/assistive-tech-1</link>
             <guid>assistive-tech-1</guid>
+            <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Classrooms Without Borders - Education Technology Revolutionizing The Face of Education]]></title>
+            <link>https://vrapeutic.github.io/French/ed-blog/classrooms-without-borders</link>
+            <guid>classrooms-without-borders</guid>
             <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
@@ -43,9 +43,9 @@
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
         <item>
-            <title><![CDATA[Classrooms Without Borders - Education Technology Revolutionizing The Face of Education]]></title>
-            <link>https://vrapeutic.github.io/French/ed-blog/classrooms-without-borders</link>
-            <guid>classrooms-without-borders</guid>
+            <title><![CDATA[Assessment - A Different Perspective]]></title>
+            <link>https://vrapeutic.github.io/French/ed-blog/assessment-a-different-perspective</link>
+            <guid>assessment-a-different-perspective</guid>
             <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
