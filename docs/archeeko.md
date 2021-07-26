@@ -4,16 +4,18 @@ title: Archeeko | VR Module Description
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out!](https://archeeko-f3fc01.web.app/) 
+## [Put on your VR Headset & Try it out!](https://vrapeutic.github.io/Archeeko-WebXR/)
 
 ## [Check Archeeko's GitHub Repository](https://github.com/vrapeutic/Archeeko-WebXR)
 
 ## Description
- 
+
 An archery exercise that is designed to address and measure the various variables of attention.
 It consists of 3 levels with progressing difficulty, taking place in an immersive environment.
 ​
+
 ## Story
+
 The module takes place in a forest with an empty space that has a big fir tree in front of the player which contains the targets that the player has to shoot at.
 
 The player must shoot at the targets on the fir tree. The player should have 5 to 15 extra arrows than the number of targets on the tree, so that the player has 2 extra lives. If the player misses, the arrow that has been thrown away (anywhere other than on the targets) disappears after a small period of time.
