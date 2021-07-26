@@ -1,28 +1,28 @@
 ---
 id: ellie-tale-vr-module-description
-title: Ellie Tale | VR Module Description
+title: Ellie Tale | Description du module de réalité virtuelle
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out! 🚀](https://vrapeutic.github.io/EllieTale-WebXR/)
+## [Mettez votre casque VR et commencez à interagir! 🚀](https://vrapeutic.github.io/EllieTale-WebXR/)
 
-## [Check Ellie Tale's GitHub Repository 🏃](https://github.com/vrapeutic/Ellie-Tale)
+## [Vérifiez le référentiel GitHub d'Ellie Tale 🏃](https://github.com/vrapeutic/Ellie-Tale)
 
-## Description 📝
+## La description 📝
 
-A gamified **Virtual Reality** therapeutic application that addresses attention skills on various levels. The gameplay consists of a visual target tracking exercise that is designed to address and measure the various variables of attention.
+Une application thérapeutique gamifiée de **Réalité Virtuelle** qui aborde les compétences d'attention à différents niveaux. Le gameplay consiste en un exercice de suivi de cible visuel conçu pour traiter et mesurer les différentes variables de l'attention.
 ​
 
-## Story 🎙
+## Récit 🎙
 
-**Uncle Noah** is a nice old man, living by himself in the neighborhood. Since he’s living alone, he usually needs help in his everyday activities. He does fishing, farming, growing fruits, and writes books to earn a living.
+**Oncle Noah** est un gentil vieil homme, vivant seul dans le quartier. Comme il vit seul, il a généralement besoin d'aide dans ses activités quotidiennes. Il pêche, cultive, cultive des fruits et écrit des livres pour gagner sa vie.
 ​
-**Ellie** is a fairy living in the neighborhood. One evening, she saw Uncle Noah while he was working on his garden and she talked to him. When she got to know that he was living and working all by himself, she decided that she’d pass by every day to help him. Ellie has invited the **you** to join her in helping Uncle Noah by unpacking his tools or collecting his objects.
+**Ellie** est une fée vivant dans le quartier. Un soir, elle a vu l'oncle Noah alors qu'il travaillait dans son jardin et elle lui a parlé. Quand elle a appris qu'il vivait et travaillait tout seul, elle a décidé qu'elle passerait tous les jours pour l'aider. Ellie a invité le **vous** à se joindre à elle pour aider l'oncle Noah en déballant ses outils ou en récupérant ses objets.
 ​
-The gameplay occurs in **three unique environments**. Each is composed of a round track on which the player shall reveal hidden items with the help of Ellie that are then collected. Uncle Noah is always present in the environments on the side doing an idle animation, and the items that the player and Ellie find are collected in a container that lies beside Uncle Noah.
-The three environments are:
+Le gameplay se déroule dans **trois environnements uniques**. Chacune est composée d'une piste ronde sur laquelle le joueur doit révéler des objets cachés avec l'aide d'Ellie qui sont ensuite collectés. Oncle Noah est toujours présent dans les environnements sur le côté en train de faire une animation inactive, et les objets que le joueur et Ellie trouvent sont collectés dans un conteneur qui se trouve à côté d'Oncle Noah.
+Les trois environnements sont :
 ​
 
-- **Garden**; and the objective is to collect fruits and vegetables
-- **Beach**; and the objective is to collect fish and fishing tools
-- **Library**; and the objective is to collect letters
+- **Jardin**; et l'objectif est de récolter des fruits et légumes
+- **Plage**; et l'objectif est de collecter des poissons et des outils de pêche
+- **Une bibliothèque**; et l'objectif est de collecter des lettres
