@@ -24,91 +24,15 @@ The expected behaviours can be one of the following:
 - Same as in (mention another expected behaviour)
 
 ### Level 1
-
 | Action                                   	|                                Expected Behavior                                	|
 |------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                           |   |                                                     
-|                                       	|                                                      	|
-|                                       	|       	|
-|                                        	|                                                            |
-| Perform a task successfully             |                                              |
-|                                       	|                                          	|
-|                                       	|                                                              	|
-|                                       	|                                      	|
-|                                       	|                                                    	|
-| Getting distracted or performing poorly: 	|                                                      	|
-|                                       	|                                                       	|
-|                                       	|                                            	|
-|                                       	|                                                       	|
-|                                       	|                                                   	|
+| Level Started                           	|Interactions: The player must point at the targets on the shelfs with laser and click. 
+|                                          	|                                            |
+| Perform a task successfully              | Animations: targets falls from the shelfs and  go the cart and scale up and down                                               |
+|                                       	| Interactions: a player point to another target, or to arrow to teleport to next section                                     	|
+|                                       	|                                                        	|
 | Level Ended                              |	                                                                                   |
-|   Win:                                     |                                                      	|
-|                                       	|                                                  	|
-|                                       	|                                                	|
-|                                       	|                                                 	|
-|                                       	|  |
-|   Lost:                                 |                                                         	|
-|                                       	|                                                      	|
-|                                       	|                                                       	|
-|                                       	|                                               	|
-|                                       	|  |
-
-### Level 2
-
-| Action                                   	|                                Expected Behavior                                	|
-|------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	|                                                         	|
-|                                       	|                                                   	|
-|                                       	|                                                        	|
-|                                       	|                                                      	|
-| Perform a task successfully              	|                                       	|
-|                                       	|                                                      	|
-|                                       	|                                                      	|
-|                                       	|                                                        	|
-|                                       	|                                                      	|
-| Getting distracted or performing poorly: 	|                                                      	|
-|                                       	|                                                    	|
-|                                       	|                                                  	|
-|                                       	|                                                   	|
-|                                       	|                                        	|
-| Level Ended                              |	                                                                                   |
-|   Win:                                     |                                                    	|
-|                                       	|                                                    	|
-|                                       	|                                                          	|
-|                                       	|                                            	|
-|                                       	|  |
-|   Lost:                                 |                                                       	|
-|                                       	|                                                     	|
-|                                       	|                                                        	|
-|                                       	|                                             	|
-|                                       	|                             |
-
-## Level 3
-
-| Action                                   	|                                Expected Behavior                                	|
-|------------------------------------------	|:----------------------------------------------------------------------:	|
-| Level Started                            	|                                                          	|
-|                                       	|                                                          	|
-|                                       	|                                                 	|
-|                                       	| 
-| Perform a task successfully              	|                                                      	|
-|                                       	|                                    	|
-|                                       	|                                               	|
-|                                       	|                                                        	|
-|                                       	|                                       |
-| Getting distracted or performing poorly: 	|                                                     	|
-|                                       	|                                                        	|
-|                                       	|                                                     	|
-|                                       	|                                                        	|
-|                                       	|                                                      	|
-| Level Ended                              |	                                                                                   |
-|   Win:                                     |                                                   	|
-|                                       	|                                                   	|
-|                                       	|                                                          	|
-|                                       	|                                              	|
-|                                       	|  |
-|   Lost:                                 |                                                     	|
-|                                       	|                                       	|
-|                                       	|                                               	|
-|                                       	|                                                      	                                             	|
-|                                       	|                         |
+|   Win:                                     |                                                       	|
+|                                       	| Interactions:  the player are done hitting all targets                                                	|
+=
+  
