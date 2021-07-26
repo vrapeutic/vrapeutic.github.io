@@ -7,12 +7,15 @@ workflows:
       - build:
           filters:
             branches:
-              ignore: master
+              ignore:
+                - master
       - deploy:
           filters:
             branches:
-              only: main
-              ignore: master
+              only:
+                - main
+              ignore:
+                - master
           requires:
             - build
 
@@ -27,7 +30,9 @@ jobs:
           command: npm install
       - run:
           name: Build Site
-          command: npm run build
+          command: |
+            npm run build
+            cp -R .circleci build
       - persist_to_workspace:
           root: .
           paths:
