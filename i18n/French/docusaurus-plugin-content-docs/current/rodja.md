@@ -1,42 +1,42 @@
 ---
 id: rodja-vr-module-description
-title: Rodja | VR Module Description
+title: Rodja | Description du module de réalité virtuelle
 sidebar_label: VR Module
 ---
 
-## [Put on your VR Headset & Try it out! 🚀 ](https://rodja-webxr.firebaseapp.com)
+## [Mettez votre casque VR et commencez à interagir! 🚀 ](https://rodja-webxr.firebaseapp.com)
 
-## [Check Rodja's GitHub Repository 🏃 ](https://github.com/vrapeutic/Rodja-webXR)
+## [Vérifiez le dépôt GitHub de Rodja 🏃 ](https://github.com/vrapeutic/Rodja-webXR)
 
-## Description 📝
+## La description 📝
 
-Rodja is a module in which the player sees jewels on a road
-around them and tries to collects jewels on it in front of them as fast as they
-could while avoiding distractions.
+Rodja est un module dans lequel le joueur voit des bijoux sur une route
+autour d'eux et essaie de ramasser des bijoux devant eux aussi vite qu'ils
+pourrait tout en évitant les distractions.
 
-## Story 🎙
+## Récit 🎙
 
-The gameplay occurs on a track shaped in different shapes and cycling
-around the player. There are multiple environments that the player and the track
-can be placed in.
+Le gameplay se déroule sur une piste façonnée dans différentes formes et cyclisme
+autour du joueur. Il existe plusieurs environnements que le joueur et la piste
+peut être placé dans.
 
-## Player
+## Joueur
 
-The player plays from a first person perspective. The player character is
-not seen on the screen. Instead the player controls a circle pointer at the
-center of his/her eyesight that they use to point at the jewels to collect
-them.
-The player controls the pointer only by moving their head around as the
-pointer should express their eyes’ center’s direction.
+Le joueur joue du point de vue de la première personne. Le personnage du joueur est
+ne se voit pas à l'écran. Au lieu de cela, le joueur contrôle un pointeur de cercle au
+centre de sa vue qu'ils utilisent pour pointer les bijoux à collectionner
+eux.
+Le joueur ne contrôle le pointeur qu'en bougeant la tête pendant que le
+le pointeur doit exprimer la direction du centre de leurs yeux.
 
-## NPC
+## PNJ
 
-An NPC plays along the player to encourage them and tell them the rules
-of the game.
-The NPC has two options: either a boy or a girl.
+Un PNJ accompagne le joueur pour l'encourager et lui expliquer les règles
+Du jeu.
+Le PNJ a deux options : soit un garçon, soit une fille.
 
-## Goals
+## Buts
 
-The player must collect all jewels before the time ends, or as fast as they
-could, without getting distracted by distractions around them, or by the movement
-of the jewels themselves.
+Le joueur doit récupérer tous les bijoux avant la fin du temps, ou aussi vite qu'ils
+pourrait, sans se laisser distraire par les distractions autour d'eux, ou par le mouvement
+des bijoux eux-mêmes.
