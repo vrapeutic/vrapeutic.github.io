@@ -32,6 +32,12 @@ module.exports = {
                     'rodja-vr-module-description',
                     'rodja-test-cases'
                 ]
+            },
+            {
+                'Supermarket': [
+                    'supermarket-vr-module-description',
+                    'supermarket-test-cases'
+                ]
             }
         ]
     },
