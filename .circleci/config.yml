@@ -50,4 +50,5 @@ jobs:
             git config --global user.email "${GIT_EMAIL}"
             git config --global user.name "${GIT_USERNAME}"
             echo "machine github.com login ${GIT_USERNAME} password ${GIT_TOKEN}" > ~/.netrc
+            cp -R .circleci/ build/
             GIT_USER=${GIT_USERNAME} yarn deploy
