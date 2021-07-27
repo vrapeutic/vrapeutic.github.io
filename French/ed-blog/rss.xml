@@ -8,16 +8,16 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Neuropsychology - Evaluating Learning Disability]]></title>
-            <link>https://vrapeutic.github.io/French/ed-blog/neuropsychology-evaluating-learning-disability</link>
-            <guid>neuropsychology-evaluating-learning-disability</guid>
+            <title><![CDATA[Autism Spectrum Disorder]]></title>
+            <link>https://vrapeutic.github.io/French/ed-blog/autism-spectrum-disorder</link>
+            <guid>autism-spectrum-disorder</guid>
             <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
         <item>
-            <title><![CDATA[Autism Spectrum Disorder]]></title>
-            <link>https://vrapeutic.github.io/French/ed-blog/autism-spectrum-disorder</link>
-            <guid>autism-spectrum-disorder</guid>
+            <title><![CDATA[Neuropsychology - Evaluating Learning Disability]]></title>
+            <link>https://vrapeutic.github.io/French/ed-blog/neuropsychology-evaluating-learning-disability</link>
+            <guid>neuropsychology-evaluating-learning-disability</guid>
             <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
@@ -36,6 +36,13 @@
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
         <item>
+            <title><![CDATA[So What Kind of Assistive Technology Tools are out there?]]></title>
+            <link>https://vrapeutic.github.io/French/ed-blog/assistive-tech-2</link>
+            <guid>assistive-tech-2</guid>
+            <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
+        </item>
+        <item>
             <title><![CDATA[Classrooms Without Borders - Education Technology Revolutionizing The Face of Education]]></title>
             <link>https://vrapeutic.github.io/French/ed-blog/classrooms-without-borders</link>
             <guid>classrooms-without-borders</guid>
@@ -46,13 +53,6 @@
             <title><![CDATA[Growing Pains - The Brain Early Development Explained]]></title>
             <link>https://vrapeutic.github.io/French/ed-blog/growing-pain</link>
             <guid>growing-pain</guid>
-            <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[So What Kind of Assistive Technology Tools are out there?]]></title>
-            <link>https://vrapeutic.github.io/French/ed-blog/assistive-tech-2</link>
-            <guid>assistive-tech-2</guid>
             <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[You can check out the Original Article here, on Yuram's website.]]></description>
         </item>
